@@ -2,5 +2,5 @@
  "name":"digital-mechanobiology-lab",
  "private":true,
  "engines":{"node":">=22"},
- "scripts":{"build":"node scripts/build.mjs","test":"node --test scripts/test-content.mjs scripts/test-network.mjs scripts/test-build.mjs scripts/test-publications.mjs scripts/test-openalex.mjs && node scripts/test-bone-paths.cjs","network:refresh":"node scripts/refresh-network.mjs","publications:refresh":"node scripts/refresh-publications.mjs","preview":"python3 -m http.server 8765"}
+ "scripts":{"build":"node scripts/build.mjs","test":"node --test scripts/test-content.mjs scripts/test-network.mjs scripts/test-build.mjs scripts/test-publications.mjs scripts/test-openalex.mjs scripts/test-map-view.mjs && node scripts/test-bone-paths.cjs","network:refresh":"node scripts/refresh-network.mjs","publications:refresh":"node scripts/refresh-publications.mjs","preview":"python3 -m http.server 8765"}
 }

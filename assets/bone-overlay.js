@@ -67,7 +67,13 @@
       pc.save();pc.translate(displaced.x,displaced.y);pc.rotate(c.angle);const r=c.r;
       const g=pc.createRadialGradient(-r*.25,-r*.25,.1,0,0,r*1.4);g.addColorStop(0,'rgba(252,202,144,.95)');g.addColorStop(1,'rgba(174,26,49,.65)');pc.fillStyle=g;
       pc.beginPath();pc.roundRect(-r*1.15,-r,r*2.3,r*2,r*.65);pc.fill();pc.strokeStyle='rgba(117,23,42,.65)';pc.lineWidth=.35;pc.stroke();
-      pc.fillStyle='#771b39';pc.beginPath();pc.ellipse(-r*.12,0,r*.43,r*.38,0,0,Math.PI*2);pc.fill();pc.restore();
+      pc.fillStyle='#771b39';pc.beginPath();pc.ellipse(-r*.12,0,r*.43,r*.38,0,0,Math.PI*2);pc.fill();
+      const effect=paths.repairVisual(c.repairDistance,c.repairHealth,t,c.seed,reduced);
+      if(effect){
+        // Deposition around the cell indicates repair; the cell itself keeps its colour.
+        for(const p of effect.particles){pc.globalAlpha=p.alpha;pc.fillStyle='#ffcd00';pc.strokeStyle='#8c5918';pc.lineWidth=.3;pc.beginPath();pc.arc(p.x*r,p.y*r,p.radius,0,Math.PI*2);pc.fill();pc.stroke();}pc.globalAlpha=1;
+      }
+      pc.restore();
     }
     pc.globalCompositeOperation='destination-in';pc.drawImage(stencil,0,0,mw,mh);pc.globalCompositeOperation='source-over';
     // Follow the actual clipping boundary, so the grid ends at a defined rim.
@@ -111,6 +117,7 @@
       }
       c.angle=paths.easeAngle(c.angle,c.targetAngle??c.angle,dt);
       if(repairing)target.health=Math.max(0,target.health-dt*paths.repairRate(distance));
+      c.repairDistance=repairing?distance:-1;c.repairHealth=repairing?target.health:0;
     }
     sites=sites.filter(s=>s.health>.02);draw();raf=requestAnimationFrame(step);
   }

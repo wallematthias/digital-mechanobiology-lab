@@ -79,12 +79,21 @@
     return edges;
   }
   function surfaceMask(pixels){const out=new Uint8Array(pixels.length/4);for(let i=0;i<out.length;i++){const k=i*4,lum=.2126*pixels[k]+.7152*pixels[k+1]+.0722*pixels[k+2];out[i]=pixels[k+3]>240&&lum>132?1:0}return out}
+  function repairVisual(distance,health,time,seed,reduced){
+    if(!(health>.02)||!repairRate(distance))return null;
+    if(reduced)return {particles:[]};
+    return {particles:Array.from({length:8},(_,j)=>{
+      const progress=((time/1.7+seed*.137+j/8)%1+1)%1,angle=seed*2.4+j*2.399;
+      const radius=1.35+progress*1.1;
+      return {x:Math.cos(angle)*radius,y:Math.sin(angle)*radius,alpha:Math.sin(progress*Math.PI),radius:1.25+.35*(1-progress)};
+    })};
+  }
   function clickStrength(age,damage){return age>=1.6?0:(1.65+Math.min(8,damage)*.18)*Math.exp(-age*3)*Math.cos(age*5)}
   function displace(p,load,strength){
     if(!load||!strength)return {x:p.x,y:p.y};
     const dx=p.x-load.x,dy=p.y-load.y,q=Math.exp(-(dx*dx+dy*dy)/(2*23*23))*strength;
     return {x:p.x+q*(-.2*dx+.065*dy),y:p.y+q*(-.16*dy+.075*dx+2)};
   }
-  const api={neighbours,distances,nearest,frontFace,idleDue,thicken,meshEdges,surfaceMask,displace,clickStrength,routingMask,chooseStep,senses,responders,repairRate,easeAngle,returnHome,boundaryEdges,repairTarget,smoothLoop,contours,connectedSurface,recruitment};
+  const api={neighbours,distances,nearest,frontFace,idleDue,thicken,meshEdges,surfaceMask,displace,clickStrength,routingMask,chooseStep,senses,responders,repairRate,repairVisual,easeAngle,returnHome,boundaryEdges,repairTarget,smoothLoop,contours,connectedSurface,recruitment};
   if(typeof module!=='undefined')module.exports=api;else scope.BonePaths=api;
 })(globalThis);
