@@ -1,0 +1,1962 @@
+{
+  "source": "OpenAlex",
+  "authorId": "https://openalex.org/A5038718884",
+  "orcid": "https://orcid.org/0000-0003-3250-8143",
+  "updated": "2026-10-02",
+  "workCount": 33,
+  "nodes": [
+    {
+      "id": "https://openalex.org/I35440088",
+      "name": "ETH Zurich",
+      "city": "Zurich",
+      "country": "CH",
+      "latitude": 47.36667,
+      "longitude": 8.55,
+      "authors": [
+        "Angad Malhotra",
+        "Ariane C. Scheuren",
+        "Caitlyn J. Collins",
+        "Daniele Boaretti",
+        "Danielle E. Whittier",
+        "Dominic Eggemann",
+        "Francisco Correia Marques",
+        "Friederike A. Schulte",
+        "Gisela Anna Kuhn",
+        "Graeme R. Paul",
+        "Jack J. Kendall",
+        "María Monzón",
+        "Nicholas Ohs",
+        "Penny R. Atkins",
+        "Ralph Müller"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        },
+        {
+          "id": "https://openalex.org/W4408744621",
+          "title": "Structural alterations during fracture healing lead to void spaces developing in surrounding bone microarchitecture",
+          "year": 2025,
+          "doi": "https://doi.org/10.1093/jbmr/zjaf046"
+        },
+        {
+          "id": "https://openalex.org/W4390600743",
+          "title": "Bone remodeling and responsiveness to mechanical stimuli in individuals with type 1 diabetes mellitus",
+          "year": 2024,
+          "doi": "https://doi.org/10.1093/jbmr/zjad014"
+        },
+        {
+          "id": "https://openalex.org/W4396664137",
+          "title": "A graph model to describe the network connectivity of trabecular plates and rods",
+          "year": 2024,
+          "doi": "https://doi.org/10.3389/fbioe.2024.1384280"
+        },
+        {
+          "id": "https://openalex.org/W4364365708",
+          "title": "Mechanostat parameters estimated from time-lapsed in vivo micro-computed tomography data of mechanically driven bone adaptation are logarithmically dependent on loading frequency",
+          "year": 2023,
+          "doi": "https://doi.org/10.3389/fbioe.2023.1140673"
+        },
+        {
+          "id": "https://openalex.org/W4367609616",
+          "title": "Precision of bone mechanoregulation assessment in humans using longitudinal high-resolution peripheral quantitative computed tomography in vivo",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116780"
+        },
+        {
+          "id": "https://openalex.org/W4386399752",
+          "title": "A multi-stack registration technique to improve measurement accuracy and precision across longitudinal HR-pQCT scans",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116893"
+        },
+        {
+          "id": "https://openalex.org/W4313750716",
+          "title": "Mechanostat parameters estimated from time-lapsed in vivo micro-computed tomography data of mechanically driven bone adaptation are logarithmically dependent on loading frequency",
+          "year": 2023,
+          "doi": "https://doi.org/10.1101/2023.01.07.523082"
+        },
+        {
+          "id": "https://openalex.org/W4300167442",
+          "title": "Meta-analysis of Diabetes Mellitus-Associated Differences in Bone Structure Assessed by High-Resolution Peripheral Quantitative Computed Tomography",
+          "year": 2022,
+          "doi": "https://doi.org/10.1007/s11914-022-00755-6"
+        },
+        {
+          "id": "https://openalex.org/W4308592417",
+          "title": "Motion grading of high-resolution quantitative computed tomography supported by deep convolutional neural networks",
+          "year": 2022,
+          "doi": "https://doi.org/10.1016/j.bone.2022.116607"
+        },
+        {
+          "id": "https://openalex.org/W4285078850",
+          "title": "Motion Grading of High-Resolution Quantitative Computed Tomography Supported by Deep Convolutional Neural Networks",
+          "year": 2022,
+          "doi": "https://doi.org/10.2139/ssrn.4130780"
+        },
+        {
+          "id": "https://openalex.org/W4282973131",
+          "title": "HR-pQCT Measures of Bone Microarchitecture in Type 1 and Type 2 Diabetes Mellitus: Systematic Review and Meta-analysis",
+          "year": 2022,
+          "doi": "https://doi.org/10.1016/j.bonr.2022.101243"
+        },
+        {
+          "id": "https://openalex.org/W3124177967",
+          "title": "Application of subject-specific adaptive mechanical loading for bone healing in a mouse tail vertebral defect",
+          "year": 2021,
+          "doi": "https://doi.org/10.1038/s41598-021-81132-8"
+        },
+        {
+          "id": "https://openalex.org/W3177029177",
+          "title": "Bone Mechanoregulation Allows Subject-Specific Load Estimation Based on Time-Lapsed Micro-CT and HR-pQCT in Vivo",
+          "year": 2021,
+          "doi": "https://doi.org/10.3389/fbioe.2021.677985"
+        },
+        {
+          "id": "https://openalex.org/W3132800771",
+          "title": "Bone mechanoregulation allows subject-specific load estimation based on time-lapsed micro-CT and HR-pQCT in vivo",
+          "year": 2021,
+          "doi": "https://doi.org/10.1101/2021.02.22.431960"
+        },
+        {
+          "id": "https://openalex.org/W3164874695",
+          "title": "Tissue-level mechanical stimuli drive bone formation and resorption in humans and mice",
+          "year": 2021,
+          "doi": "https://doi.org/10.1016/j.bonr.2021.101032"
+        },
+        {
+          "id": "https://openalex.org/W3108826561",
+          "title": "Application of subject-specific adaptive mechanical loading for bone healing in a mouse tail vertebral defect",
+          "year": 2020,
+          "doi": "https://doi.org/10.1101/2020.09.13.295402"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4405253168",
+      "name": "Institute for Biomechanics",
+      "city": "Zurich",
+      "country": "CH",
+      "latitude": 47.36667,
+      "longitude": 8.55,
+      "authors": [
+        "Angad Malhotra",
+        "Ariane C. Scheuren",
+        "Caitlyn J. Collins",
+        "Daniele Boaretti",
+        "Danielle E. Whittier",
+        "Dominic Eggemann",
+        "Francisco Correia Marques",
+        "Friederike A. Schulte",
+        "Gisela Anna Kuhn",
+        "Graeme R. Paul",
+        "Jack J. Kendall",
+        "Nicholas Ohs",
+        "Penny R. Atkins",
+        "Ralph Müller"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4408744621",
+          "title": "Structural alterations during fracture healing lead to void spaces developing in surrounding bone microarchitecture",
+          "year": 2025,
+          "doi": "https://doi.org/10.1093/jbmr/zjaf046"
+        },
+        {
+          "id": "https://openalex.org/W4390600743",
+          "title": "Bone remodeling and responsiveness to mechanical stimuli in individuals with type 1 diabetes mellitus",
+          "year": 2024,
+          "doi": "https://doi.org/10.1093/jbmr/zjad014"
+        },
+        {
+          "id": "https://openalex.org/W4396664137",
+          "title": "A graph model to describe the network connectivity of trabecular plates and rods",
+          "year": 2024,
+          "doi": "https://doi.org/10.3389/fbioe.2024.1384280"
+        },
+        {
+          "id": "https://openalex.org/W4364365708",
+          "title": "Mechanostat parameters estimated from time-lapsed in vivo micro-computed tomography data of mechanically driven bone adaptation are logarithmically dependent on loading frequency",
+          "year": 2023,
+          "doi": "https://doi.org/10.3389/fbioe.2023.1140673"
+        },
+        {
+          "id": "https://openalex.org/W4367609616",
+          "title": "Precision of bone mechanoregulation assessment in humans using longitudinal high-resolution peripheral quantitative computed tomography in vivo",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116780"
+        },
+        {
+          "id": "https://openalex.org/W4386399752",
+          "title": "A multi-stack registration technique to improve measurement accuracy and precision across longitudinal HR-pQCT scans",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116893"
+        },
+        {
+          "id": "https://openalex.org/W4313750716",
+          "title": "Mechanostat parameters estimated from time-lapsed in vivo micro-computed tomography data of mechanically driven bone adaptation are logarithmically dependent on loading frequency",
+          "year": 2023,
+          "doi": "https://doi.org/10.1101/2023.01.07.523082"
+        },
+        {
+          "id": "https://openalex.org/W4300167442",
+          "title": "Meta-analysis of Diabetes Mellitus-Associated Differences in Bone Structure Assessed by High-Resolution Peripheral Quantitative Computed Tomography",
+          "year": 2022,
+          "doi": "https://doi.org/10.1007/s11914-022-00755-6"
+        },
+        {
+          "id": "https://openalex.org/W4308592417",
+          "title": "Motion grading of high-resolution quantitative computed tomography supported by deep convolutional neural networks",
+          "year": 2022,
+          "doi": "https://doi.org/10.1016/j.bone.2022.116607"
+        },
+        {
+          "id": "https://openalex.org/W4285078850",
+          "title": "Motion Grading of High-Resolution Quantitative Computed Tomography Supported by Deep Convolutional Neural Networks",
+          "year": 2022,
+          "doi": "https://doi.org/10.2139/ssrn.4130780"
+        },
+        {
+          "id": "https://openalex.org/W4282973131",
+          "title": "HR-pQCT Measures of Bone Microarchitecture in Type 1 and Type 2 Diabetes Mellitus: Systematic Review and Meta-analysis",
+          "year": 2022,
+          "doi": "https://doi.org/10.1016/j.bonr.2022.101243"
+        },
+        {
+          "id": "https://openalex.org/W3124177967",
+          "title": "Application of subject-specific adaptive mechanical loading for bone healing in a mouse tail vertebral defect",
+          "year": 2021,
+          "doi": "https://doi.org/10.1038/s41598-021-81132-8"
+        },
+        {
+          "id": "https://openalex.org/W3177029177",
+          "title": "Bone Mechanoregulation Allows Subject-Specific Load Estimation Based on Time-Lapsed Micro-CT and HR-pQCT in Vivo",
+          "year": 2021,
+          "doi": "https://doi.org/10.3389/fbioe.2021.677985"
+        },
+        {
+          "id": "https://openalex.org/W3132800771",
+          "title": "Bone mechanoregulation allows subject-specific load estimation based on time-lapsed micro-CT and HR-pQCT in vivo",
+          "year": 2021,
+          "doi": "https://doi.org/10.1101/2021.02.22.431960"
+        },
+        {
+          "id": "https://openalex.org/W3108826561",
+          "title": "Application of subject-specific adaptive mechanical loading for bone healing in a mouse tail vertebral defect",
+          "year": 2020,
+          "doi": "https://doi.org/10.1101/2020.09.13.295402"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I168635309",
+      "name": "University of Calgary",
+      "city": "Calgary",
+      "country": "CA",
+      "latitude": 51.05011,
+      "longitude": -114.08529,
+      "authors": [
+        "Annabel R Bugbird",
+        "Bryn E. Matheson",
+        "Callie E. Stirling",
+        "Carrie Ye",
+        "Danielle E. Whittier",
+        "Leigh Gabel",
+        "Michael John Gill",
+        "Michael T. Kuczynski",
+        "Nathan J. Neeteson",
+        "Nina Pavlovic",
+        "Paul A. Hulme",
+        "Sarah L. Manske",
+        "Steven K. Boyd"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130608854",
+          "title": "Early skeletal deteriorations following short-duration spaceflight",
+          "year": 2026,
+          "doi": "https://doi.org/10.1038/s41526-026-00578-0"
+        },
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        },
+        {
+          "id": "https://openalex.org/W7128678583",
+          "title": "Association of immune checkpoint inhibitors with muscle mass and density in patients with melanoma",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/oncolo/oyag029"
+        },
+        {
+          "id": "https://openalex.org/W7169882187",
+          "title": "Impact of calibration approach on image quality and volumetric bone mineral density in low-dose chest computed tomography",
+          "year": 2026,
+          "doi": "https://doi.org/10.1088/1873-4030/ae8dcd"
+        },
+        {
+          "id": "https://openalex.org/W7171942534",
+          "title": "Clinical advances and technical challenges of quantitative computed tomography",
+          "year": 2026,
+          "doi": "https://doi.org/10.1016/b978-0-443-26739-0.00015-6"
+        },
+        {
+          "id": "https://openalex.org/W4408744621",
+          "title": "Structural alterations during fracture healing lead to void spaces developing in surrounding bone microarchitecture",
+          "year": 2025,
+          "doi": "https://doi.org/10.1093/jbmr/zjaf046"
+        },
+        {
+          "id": "https://openalex.org/W4413826251",
+          "title": "Comparing linear and nonlinear finite element models of vertebral strength across the thoracolumbar spine: a benchmark from density-calibrated computed tomography",
+          "year": 2025,
+          "doi": "https://doi.org/10.1093/gigascience/giaf094"
+        },
+        {
+          "id": "https://openalex.org/W4411175359",
+          "title": "Quantifying localized bone loss in clinical computed tomography using void spaces",
+          "year": 2025,
+          "doi": "https://doi.org/10.1007/s00198-025-07558-2"
+        },
+        {
+          "id": "https://openalex.org/W4412704756",
+          "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
+          "year": 2025,
+          "doi": "https://doi.org/10.1038/s41526-025-00511-x"
+        },
+        {
+          "id": "https://openalex.org/W4409729313",
+          "title": "Comparing Linear and Nonlinear Finite Element Models of Vertebral Strength Across the Thoracolumbar Spine: A Benchmark from Density-Calibrated Computed Tomography",
+          "year": 2025,
+          "doi": "https://doi.org/10.1101/2025.04.19.649449"
+        },
+        {
+          "id": "https://openalex.org/W4415475121",
+          "title": "Assessing the Effects of Immune Checkpoint Inhibitors and Pretreatment Kidney Function on Muscle Mass and Density",
+          "year": 2025,
+          "doi": "https://doi.org/10.1681/asn.202533s497cc"
+        },
+        {
+          "id": "https://openalex.org/W4405632920",
+          "title": "Tracking of spaceflight-induced bone remodeling reveals a limited time frame for recovery of resorption sites in humans",
+          "year": 2024,
+          "doi": "https://doi.org/10.1126/sciadv.adq3632"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I1316535847",
+      "name": "Beth Israel Deaconess Medical Center",
+      "city": "Boston",
+      "country": "US",
+      "latitude": 42.339786529541016,
+      "longitude": -71.10518646240234,
+      "authors": [
+        "Ahmad Hedayatzadeh Razavi",
+        "Angela R. Kassey",
+        "Ara Nazarian",
+        "Brian D. Snyder",
+        "Daniel V Kassey",
+        "Diana Yeritsyan",
+        "Edward K. Rodriguez",
+        "Edward Kenneth Rodriguez",
+        "Indeevar R. Beeram",
+        "Jonathan Egan",
+        "Mohammadreza Abbasian",
+        "Ramin Oftadeh",
+        "Victor Babu Kassey"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7203639261",
+          "title": "A Postprocessing Software Tool for 1H and 31P MRI Data Analysis",
+          "year": 2026,
+          "doi": "https://doi.org/10.1097/rmr.0000000000000324"
+        },
+        {
+          "id": "https://openalex.org/W7214668050",
+          "title": "A Combined 1H and 31P Magnetic Resonance Imaging Technique to Assess Bone Matrix and Mineral Densities in Rats with Osteoporosis and Osteomalacia",
+          "year": 2026,
+          "doi": "https://doi.org/10.1007/s10439-026-04391-4"
+        },
+        {
+          "id": "https://openalex.org/W4411486690",
+          "title": "Using solid-state MRI and a double-tuned RF coil to quantify bone matrix and mineral densities in rat bones",
+          "year": 2025,
+          "doi": "https://doi.org/10.1016/j.jmr.2025.107925"
+        },
+        {
+          "id": "https://openalex.org/W4393160845",
+          "title": "Q uantitative 1H Magnetic Resonance Imaging on Normal and Pathologic Rat Bones by Solid‐State 1H ZTE Sequence with Water and Fat Suppression",
+          "year": 2024,
+          "doi": "https://doi.org/10.1002/jmri.29361"
+        },
+        {
+          "id": "https://openalex.org/W4396664137",
+          "title": "A graph model to describe the network connectivity of trabecular plates and rods",
+          "year": 2024,
+          "doi": "https://doi.org/10.3389/fbioe.2024.1384280"
+        },
+        {
+          "id": "https://openalex.org/W4390245707",
+          "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116996"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I136199984",
+      "name": "Harvard University",
+      "city": "Cambridge",
+      "country": "US",
+      "latitude": 42.3751,
+      "longitude": -71.10561,
+      "authors": [
+        "Ahmad Hedayatzadeh Razavi",
+        "Angela R. Kassey",
+        "Ara Nazarian",
+        "Brian D. Snyder",
+        "Daniel V Kassey",
+        "Diana Yeritsyan",
+        "Edward K. Rodriguez",
+        "Edward Kenneth Rodriguez",
+        "Jerome L. Ackerman",
+        "Jonathan Egan",
+        "Mohammadreza Abbasian",
+        "Ramin Oftadeh",
+        "Victor Babu Kassey",
+        "Yaotang Wu"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7203639261",
+          "title": "A Postprocessing Software Tool for 1H and 31P MRI Data Analysis",
+          "year": 2026,
+          "doi": "https://doi.org/10.1097/rmr.0000000000000324"
+        },
+        {
+          "id": "https://openalex.org/W7214668050",
+          "title": "A Combined 1H and 31P Magnetic Resonance Imaging Technique to Assess Bone Matrix and Mineral Densities in Rats with Osteoporosis and Osteomalacia",
+          "year": 2026,
+          "doi": "https://doi.org/10.1007/s10439-026-04391-4"
+        },
+        {
+          "id": "https://openalex.org/W4411486690",
+          "title": "Using solid-state MRI and a double-tuned RF coil to quantify bone matrix and mineral densities in rat bones",
+          "year": 2025,
+          "doi": "https://doi.org/10.1016/j.jmr.2025.107925"
+        },
+        {
+          "id": "https://openalex.org/W4393160845",
+          "title": "Q uantitative 1H Magnetic Resonance Imaging on Normal and Pathologic Rat Bones by Solid‐State 1H ZTE Sequence with Water and Fat Suppression",
+          "year": 2024,
+          "doi": "https://doi.org/10.1002/jmri.29361"
+        },
+        {
+          "id": "https://openalex.org/W4396664137",
+          "title": "A graph model to describe the network connectivity of trabecular plates and rods",
+          "year": 2024,
+          "doi": "https://doi.org/10.3389/fbioe.2024.1384280"
+        },
+        {
+          "id": "https://openalex.org/W4390245707",
+          "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116996"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I859038795",
+      "name": "Virginia Tech",
+      "city": "Blacksburg",
+      "country": "US",
+      "latitude": 37.22957,
+      "longitude": -80.41394,
+      "authors": [
+        "Caitlyn J. Collins"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4390600743",
+          "title": "Bone remodeling and responsiveness to mechanical stimuli in individuals with type 1 diabetes mellitus",
+          "year": 2024,
+          "doi": "https://doi.org/10.1093/jbmr/zjad014"
+        },
+        {
+          "id": "https://openalex.org/W4367609616",
+          "title": "Precision of bone mechanoregulation assessment in humans using longitudinal high-resolution peripheral quantitative computed tomography in vivo",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116780"
+        },
+        {
+          "id": "https://openalex.org/W4386399752",
+          "title": "A multi-stack registration technique to improve measurement accuracy and precision across longitudinal HR-pQCT scans",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116893"
+        },
+        {
+          "id": "https://openalex.org/W4300167442",
+          "title": "Meta-analysis of Diabetes Mellitus-Associated Differences in Bone Structure Assessed by High-Resolution Peripheral Quantitative Computed Tomography",
+          "year": 2022,
+          "doi": "https://doi.org/10.1007/s11914-022-00755-6"
+        },
+        {
+          "id": "https://openalex.org/W4308592417",
+          "title": "Motion grading of high-resolution quantitative computed tomography supported by deep convolutional neural networks",
+          "year": 2022,
+          "doi": "https://doi.org/10.1016/j.bone.2022.116607"
+        },
+        {
+          "id": "https://openalex.org/W4282973131",
+          "title": "HR-pQCT Measures of Bone Microarchitecture in Type 1 and Type 2 Diabetes Mellitus: Systematic Review and Meta-analysis",
+          "year": 2022,
+          "doi": "https://doi.org/10.1016/j.bonr.2022.101243"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210127055",
+      "name": "Athinoula A. Martinos Center for Biomedical Imaging",
+      "city": "Boston",
+      "country": "US",
+      "latitude": 42.35843,
+      "longitude": -71.05977,
+      "authors": [
+        "Angela R. Kassey",
+        "Ara Nazarian",
+        "Brian D. Snyder",
+        "Daniel V Kassey",
+        "Jerome L. Ackerman",
+        "Sharon P. Kassey",
+        "Victor Babu Kassey",
+        "Yaotang Wu"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7203639261",
+          "title": "A Postprocessing Software Tool for 1H and 31P MRI Data Analysis",
+          "year": 2026,
+          "doi": "https://doi.org/10.1097/rmr.0000000000000324"
+        },
+        {
+          "id": "https://openalex.org/W7214668050",
+          "title": "A Combined 1H and 31P Magnetic Resonance Imaging Technique to Assess Bone Matrix and Mineral Densities in Rats with Osteoporosis and Osteomalacia",
+          "year": 2026,
+          "doi": "https://doi.org/10.1007/s10439-026-04391-4"
+        },
+        {
+          "id": "https://openalex.org/W4411486690",
+          "title": "Using solid-state MRI and a double-tuned RF coil to quantify bone matrix and mineral densities in rat bones",
+          "year": 2025,
+          "doi": "https://doi.org/10.1016/j.jmr.2025.107925"
+        },
+        {
+          "id": "https://openalex.org/W4393160845",
+          "title": "Q uantitative 1H Magnetic Resonance Imaging on Normal and Pathologic Rat Bones by Solid‐State 1H ZTE Sequence with Water and Fat Suppression",
+          "year": 2024,
+          "doi": "https://doi.org/10.1002/jmri.29361"
+        },
+        {
+          "id": "https://openalex.org/W4390245707",
+          "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116996"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I1288882113",
+      "name": "Boston Children's Hospital",
+      "city": "Boston",
+      "country": "US",
+      "latitude": 42.35843,
+      "longitude": -71.05977,
+      "authors": [
+        "Ara Nazarian",
+        "Brian D. Snyder",
+        "Victor Babu Kassey",
+        "Yaotang Wu"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7203639261",
+          "title": "A Postprocessing Software Tool for 1H and 31P MRI Data Analysis",
+          "year": 2026,
+          "doi": "https://doi.org/10.1097/rmr.0000000000000324"
+        },
+        {
+          "id": "https://openalex.org/W7214668050",
+          "title": "A Combined 1H and 31P Magnetic Resonance Imaging Technique to Assess Bone Matrix and Mineral Densities in Rats with Osteoporosis and Osteomalacia",
+          "year": 2026,
+          "doi": "https://doi.org/10.1007/s10439-026-04391-4"
+        },
+        {
+          "id": "https://openalex.org/W4411486690",
+          "title": "Using solid-state MRI and a double-tuned RF coil to quantify bone matrix and mineral densities in rat bones",
+          "year": 2025,
+          "doi": "https://doi.org/10.1016/j.jmr.2025.107925"
+        },
+        {
+          "id": "https://openalex.org/W4393160845",
+          "title": "Q uantitative 1H Magnetic Resonance Imaging on Normal and Pathologic Rat Bones by Solid‐State 1H ZTE Sequence with Water and Fat Suppression",
+          "year": 2024,
+          "doi": "https://doi.org/10.1002/jmri.29361"
+        },
+        {
+          "id": "https://openalex.org/W4390245707",
+          "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116996"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I143397708",
+      "name": "Innsbruck Medical University",
+      "city": "Innsbruck",
+      "country": "AT",
+      "latitude": 47.26266,
+      "longitude": 11.39454,
+      "authors": [
+        "Gerard Degenhart",
+        "Michael Blauth"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        },
+        {
+          "id": "https://openalex.org/W4367609616",
+          "title": "Precision of bone mechanoregulation assessment in humans using longitudinal high-resolution peripheral quantitative computed tomography in vivo",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116780"
+        },
+        {
+          "id": "https://openalex.org/W3177029177",
+          "title": "Bone Mechanoregulation Allows Subject-Specific Load Estimation Based on Time-Lapsed Micro-CT and HR-pQCT in Vivo",
+          "year": 2021,
+          "doi": "https://doi.org/10.3389/fbioe.2021.677985"
+        },
+        {
+          "id": "https://openalex.org/W3132800771",
+          "title": "Bone mechanoregulation allows subject-specific load estimation based on time-lapsed micro-CT and HR-pQCT in vivo",
+          "year": 2021,
+          "doi": "https://doi.org/10.1101/2021.02.22.431960"
+        },
+        {
+          "id": "https://openalex.org/W3164874695",
+          "title": "Tissue-level mechanical stimuli drive bone formation and resorption in humans and mice",
+          "year": 2021,
+          "doi": "https://doi.org/10.1016/j.bonr.2021.101032"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210087915",
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "country": "US",
+      "latitude": 42.35843,
+      "longitude": -71.05977,
+      "authors": [
+        "Angela R. Kassey",
+        "Ara Nazarian",
+        "Brian D. Snyder",
+        "Daniel V Kassey",
+        "Jerome L. Ackerman",
+        "Sharon P. Kassey",
+        "Victor Babu Kassey",
+        "Yaotang Wu"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7203639261",
+          "title": "A Postprocessing Software Tool for 1H and 31P MRI Data Analysis",
+          "year": 2026,
+          "doi": "https://doi.org/10.1097/rmr.0000000000000324"
+        },
+        {
+          "id": "https://openalex.org/W7214668050",
+          "title": "A Combined 1H and 31P Magnetic Resonance Imaging Technique to Assess Bone Matrix and Mineral Densities in Rats with Osteoporosis and Osteomalacia",
+          "year": 2026,
+          "doi": "https://doi.org/10.1007/s10439-026-04391-4"
+        },
+        {
+          "id": "https://openalex.org/W4411486690",
+          "title": "Using solid-state MRI and a double-tuned RF coil to quantify bone matrix and mineral densities in rat bones",
+          "year": 2025,
+          "doi": "https://doi.org/10.1016/j.jmr.2025.107925"
+        },
+        {
+          "id": "https://openalex.org/W4393160845",
+          "title": "Q uantitative 1H Magnetic Resonance Imaging on Normal and Pathologic Rat Bones by Solid‐State 1H ZTE Sequence with Water and Fat Suppression",
+          "year": 2024,
+          "doi": "https://doi.org/10.1002/jmri.29361"
+        },
+        {
+          "id": "https://openalex.org/W4390245707",
+          "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116996"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I118564535",
+      "name": "University of Bern",
+      "city": "Bern",
+      "country": "CH",
+      "latitude": 46.94809,
+      "longitude": 7.44744,
+      "authors": [
+        "Danielle E. Whittier",
+        "Denis Schenk",
+        "Kurt Lippuner",
+        "Matthias A. Zumstein",
+        "Penny R. Atkins",
+        "Philippe K. Zysset",
+        "Simone Poncioni"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        },
+        {
+          "id": "https://openalex.org/W4408744621",
+          "title": "Structural alterations during fracture healing lead to void spaces developing in surrounding bone microarchitecture",
+          "year": 2025,
+          "doi": "https://doi.org/10.1093/jbmr/zjaf046"
+        },
+        {
+          "id": "https://openalex.org/W4390600743",
+          "title": "Bone remodeling and responsiveness to mechanical stimuli in individuals with type 1 diabetes mellitus",
+          "year": 2024,
+          "doi": "https://doi.org/10.1093/jbmr/zjad014"
+        },
+        {
+          "id": "https://openalex.org/W4367609616",
+          "title": "Precision of bone mechanoregulation assessment in humans using longitudinal high-resolution peripheral quantitative computed tomography in vivo",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116780"
+        },
+        {
+          "id": "https://openalex.org/W4386399752",
+          "title": "A multi-stack registration technique to improve measurement accuracy and precision across longitudinal HR-pQCT scans",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116893"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I6240851",
+      "name": "Yerevan State Medical University",
+      "city": "Yerevan",
+      "country": "AM",
+      "latitude": 40.18769073486328,
+      "longitude": 44.52574157714844,
+      "authors": [
+        "Ara Nazarian"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7203639261",
+          "title": "A Postprocessing Software Tool for 1H and 31P MRI Data Analysis",
+          "year": 2026,
+          "doi": "https://doi.org/10.1097/rmr.0000000000000324"
+        },
+        {
+          "id": "https://openalex.org/W7214668050",
+          "title": "A Combined 1H and 31P Magnetic Resonance Imaging Technique to Assess Bone Matrix and Mineral Densities in Rats with Osteoporosis and Osteomalacia",
+          "year": 2026,
+          "doi": "https://doi.org/10.1007/s10439-026-04391-4"
+        },
+        {
+          "id": "https://openalex.org/W4411486690",
+          "title": "Using solid-state MRI and a double-tuned RF coil to quantify bone matrix and mineral densities in rat bones",
+          "year": 2025,
+          "doi": "https://doi.org/10.1016/j.jmr.2025.107925"
+        },
+        {
+          "id": "https://openalex.org/W4396664137",
+          "title": "A graph model to describe the network connectivity of trabecular plates and rods",
+          "year": 2024,
+          "doi": "https://doi.org/10.3389/fbioe.2024.1384280"
+        },
+        {
+          "id": "https://openalex.org/W4390245707",
+          "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116996"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210162546",
+      "name": "University Hospital Innsbruck",
+      "city": "Innsbruck",
+      "country": "AT",
+      "latitude": 47.26266,
+      "longitude": 11.39454,
+      "authors": [
+        "Kerstin Stock",
+        "Michael Blauth"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4308592417",
+          "title": "Motion grading of high-resolution quantitative computed tomography supported by deep convolutional neural networks",
+          "year": 2022,
+          "doi": "https://doi.org/10.1016/j.bone.2022.116607"
+        },
+        {
+          "id": "https://openalex.org/W3177029177",
+          "title": "Bone Mechanoregulation Allows Subject-Specific Load Estimation Based on Time-Lapsed Micro-CT and HR-pQCT in Vivo",
+          "year": 2021,
+          "doi": "https://doi.org/10.3389/fbioe.2021.677985"
+        },
+        {
+          "id": "https://openalex.org/W3132800771",
+          "title": "Bone mechanoregulation allows subject-specific load estimation based on time-lapsed micro-CT and HR-pQCT in vivo",
+          "year": 2021,
+          "doi": "https://doi.org/10.1101/2021.02.22.431960"
+        },
+        {
+          "id": "https://openalex.org/W3164874695",
+          "title": "Tissue-level mechanical stimuli drive bone formation and resorption in humans and mice",
+          "year": 2021,
+          "doi": "https://doi.org/10.1016/j.bonr.2021.101032"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I2801112126",
+      "name": "University Hospital of Bern",
+      "city": "Bern",
+      "country": "CH",
+      "latitude": 46.94809,
+      "longitude": 7.44744,
+      "authors": [
+        "Danielle E. Whittier",
+        "Kurt Lippuner",
+        "Matthias A. Zumstein",
+        "Penny R. Atkins"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4408744621",
+          "title": "Structural alterations during fracture healing lead to void spaces developing in surrounding bone microarchitecture",
+          "year": 2025,
+          "doi": "https://doi.org/10.1093/jbmr/zjaf046"
+        },
+        {
+          "id": "https://openalex.org/W4390600743",
+          "title": "Bone remodeling and responsiveness to mechanical stimuli in individuals with type 1 diabetes mellitus",
+          "year": 2024,
+          "doi": "https://doi.org/10.1093/jbmr/zjad014"
+        },
+        {
+          "id": "https://openalex.org/W4367609616",
+          "title": "Precision of bone mechanoregulation assessment in humans using longitudinal high-resolution peripheral quantitative computed tomography in vivo",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116780"
+        },
+        {
+          "id": "https://openalex.org/W4386399752",
+          "title": "A multi-stack registration technique to improve measurement accuracy and precision across longitudinal HR-pQCT scans",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116893"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210092658",
+      "name": "Harvard–MIT Division of Health Sciences and Technology",
+      "city": "Cambridge",
+      "country": "US",
+      "latitude": 42.361778259277344,
+      "longitude": -71.0869140625,
+      "authors": [
+        "Jerome L. Ackerman"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4411486690",
+          "title": "Using solid-state MRI and a double-tuned RF coil to quantify bone matrix and mineral densities in rat bones",
+          "year": 2025,
+          "doi": "https://doi.org/10.1016/j.jmr.2025.107925"
+        },
+        {
+          "id": "https://openalex.org/W4393160845",
+          "title": "Q uantitative 1H Magnetic Resonance Imaging on Normal and Pathologic Rat Bones by Solid‐State 1H ZTE Sequence with Water and Fat Suppression",
+          "year": 2024,
+          "doi": "https://doi.org/10.1002/jmri.29361"
+        },
+        {
+          "id": "https://openalex.org/W4390245707",
+          "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116996"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I63966007",
+      "name": "Massachusetts Institute of Technology",
+      "city": "Cambridge",
+      "country": "US",
+      "latitude": 42.3751,
+      "longitude": -71.10561,
+      "authors": [
+        "Jerome L. Ackerman"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4411486690",
+          "title": "Using solid-state MRI and a double-tuned RF coil to quantify bone matrix and mineral densities in rat bones",
+          "year": 2025,
+          "doi": "https://doi.org/10.1016/j.jmr.2025.107925"
+        },
+        {
+          "id": "https://openalex.org/W4393160845",
+          "title": "Q uantitative 1H Magnetic Resonance Imaging on Normal and Pathologic Rat Bones by Solid‐State 1H ZTE Sequence with Water and Fat Suppression",
+          "year": 2024,
+          "doi": "https://doi.org/10.1002/jmri.29361"
+        },
+        {
+          "id": "https://openalex.org/W4390245707",
+          "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116996"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I181369854",
+      "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "city": "Erlangen",
+      "country": "DE",
+      "latitude": 49.59099,
+      "longitude": 11.00783,
+      "authors": [
+        "Anna‐Maria Liphardt"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4412704756",
+          "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
+          "year": 2025,
+          "doi": "https://doi.org/10.1038/s41526-025-00511-x"
+        },
+        {
+          "id": "https://openalex.org/W4405632920",
+          "title": "Tracking of spaceflight-induced bone remodeling reveals a limited time frame for recovery of resorption sites in humans",
+          "year": 2024,
+          "doi": "https://doi.org/10.1126/sciadv.adq3632"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210148941",
+      "name": "IU International University of Applied Sciences",
+      "city": "Erfurt",
+      "country": "DE",
+      "latitude": 50.9787,
+      "longitude": 11.03283,
+      "authors": [
+        "Martina A. Heer"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4412704756",
+          "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
+          "year": 2025,
+          "doi": "https://doi.org/10.1038/s41526-025-00511-x"
+        },
+        {
+          "id": "https://openalex.org/W4405632920",
+          "title": "Tracking of spaceflight-induced bone remodeling reveals a limited time frame for recovery of resorption sites in humans",
+          "year": 2024,
+          "doi": "https://doi.org/10.1126/sciadv.adq3632"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210149382",
+      "name": "Johnson Space Center",
+      "city": "Houston",
+      "country": "US",
+      "latitude": 29.763280868530273,
+      "longitude": -95.36327362060547,
+      "authors": [
+        "Jean D. Sibonga",
+        "Scott M. Smith"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4412704756",
+          "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
+          "year": 2025,
+          "doi": "https://doi.org/10.1038/s41526-025-00511-x"
+        },
+        {
+          "id": "https://openalex.org/W4405632920",
+          "title": "Tracking of spaceflight-induced bone remodeling reveals a limited time frame for recovery of resorption sites in humans",
+          "year": 2024,
+          "doi": "https://doi.org/10.1126/sciadv.adq3632"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210124779",
+      "name": "National Aeronautics and Space Administration",
+      "city": "Washington",
+      "country": "US",
+      "latitude": 38.89511,
+      "longitude": -77.03637,
+      "authors": [
+        "Jean D. Sibonga",
+        "Scott M. Smith"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4412704756",
+          "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
+          "year": 2025,
+          "doi": "https://doi.org/10.1038/s41526-025-00511-x"
+        },
+        {
+          "id": "https://openalex.org/W4405632920",
+          "title": "Tracking of spaceflight-induced bone remodeling reveals a limited time frame for recovery of resorption sites in humans",
+          "year": 2024,
+          "doi": "https://doi.org/10.1126/sciadv.adq3632"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I97018004",
+      "name": "Stanford University",
+      "city": "Stanford",
+      "country": "US",
+      "latitude": 37.42411,
+      "longitude": -122.16608,
+      "authors": [
+        "Ates Fettahoglu",
+        "Susan Ziolkowski"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7128678583",
+          "title": "Association of immune checkpoint inhibitors with muscle mass and density in patients with melanoma",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/oncolo/oyag029"
+        },
+        {
+          "id": "https://openalex.org/W4415475121",
+          "title": "Assessing the Effects of Immune Checkpoint Inhibitors and Pretreatment Kidney Function on Muscle Mass and Density",
+          "year": 2025,
+          "doi": "https://doi.org/10.1681/asn.202533s497cc"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I55302922",
+      "name": "The University of Texas Medical Branch at Galveston",
+      "city": "Galveston",
+      "country": "US",
+      "latitude": 29.30135,
+      "longitude": -94.7977,
+      "authors": [
+        "Sara R. Zwart"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4412704756",
+          "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
+          "year": 2025,
+          "doi": "https://doi.org/10.1038/s41526-025-00511-x"
+        },
+        {
+          "id": "https://openalex.org/W4405632920",
+          "title": "Tracking of spaceflight-induced bone remodeling reveals a limited time frame for recovery of resorption sites in humans",
+          "year": 2024,
+          "doi": "https://doi.org/10.1126/sciadv.adq3632"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I190249584",
+      "name": "Universität Innsbruck",
+      "city": "Innsbruck",
+      "country": "AT",
+      "latitude": 47.26266,
+      "longitude": 11.39454,
+      "authors": [
+        "Gerard Degenhart",
+        "Michael Blauth"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        },
+        {
+          "id": "https://openalex.org/W4367609616",
+          "title": "Precision of bone mechanoregulation assessment in humans using longitudinal high-resolution peripheral quantitative computed tomography in vivo",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116780"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210088053",
+      "name": "Universitätsklinikum Erlangen",
+      "city": "Erlangen",
+      "country": "DE",
+      "latitude": 49.59099,
+      "longitude": 11.00783,
+      "authors": [
+        "Anna‐Maria Liphardt"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4412704756",
+          "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
+          "year": 2025,
+          "doi": "https://doi.org/10.1038/s41526-025-00511-x"
+        },
+        {
+          "id": "https://openalex.org/W4405632920",
+          "title": "Tracking of spaceflight-induced bone remodeling reveals a limited time frame for recovery of resorption sites in humans",
+          "year": 2024,
+          "doi": "https://doi.org/10.1126/sciadv.adq3632"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I135140700",
+      "name": "University of Bonn",
+      "city": "Bonn",
+      "country": "DE",
+      "latitude": 50.73438,
+      "longitude": 7.09549,
+      "authors": [
+        "Martina A. Heer"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4412704756",
+          "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
+          "year": 2025,
+          "doi": "https://doi.org/10.1038/s41526-025-00511-x"
+        },
+        {
+          "id": "https://openalex.org/W4405632920",
+          "title": "Tracking of spaceflight-induced bone remodeling reveals a limited time frame for recovery of resorption sites in humans",
+          "year": 2024,
+          "doi": "https://doi.org/10.1126/sciadv.adq3632"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4389425471",
+      "name": "Alberta Children's Hospital Research Institute",
+      "city": "Calgary",
+      "country": "",
+      "latitude": 51.05010986328125,
+      "longitude": -114.08528900146484,
+      "authors": [
+        "Danielle E. Whittier",
+        "Leigh Gabel"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4405632920",
+          "title": "Tracking of spaceflight-induced bone remodeling reveals a limited time frame for recovery of resorption sites in humans",
+          "year": 2024,
+          "doi": "https://doi.org/10.1126/sciadv.adq3632"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210163497",
+      "name": "Austin Health",
+      "city": "Melbourne",
+      "country": "AU",
+      "latitude": -37.814,
+      "longitude": 144.96332,
+      "authors": [
+        "Ali Ghasem-Zadeh"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I111088046",
+      "name": "Boston University",
+      "city": "Boston",
+      "country": "US",
+      "latitude": 42.35843,
+      "longitude": -71.05977,
+      "authors": [
+        "Ahmad Hedayatzadeh Razavi",
+        "Ara Nazarian"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7214668050",
+          "title": "A Combined 1H and 31P Magnetic Resonance Imaging Technique to Assess Bone Matrix and Mineral Densities in Rats with Osteoporosis and Osteomalacia",
+          "year": 2026,
+          "doi": "https://doi.org/10.1007/s10439-026-04391-4"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I107672454",
+      "name": "Dartmouth College",
+      "city": "Hanover",
+      "country": "US",
+      "latitude": 43.70229,
+      "longitude": -72.28954,
+      "authors": [
+        "Victor Babu Kassey"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7214668050",
+          "title": "A Combined 1H and 31P Magnetic Resonance Imaging Technique to Assess Bone Matrix and Mineral Densities in Rats with Osteoporosis and Osteomalacia",
+          "year": 2026,
+          "doi": "https://doi.org/10.1007/s10439-026-04391-4"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I42934936",
+      "name": "Dublin City University",
+      "city": "Dublin",
+      "country": "IE",
+      "latitude": 53.33306,
+      "longitude": -6.24889,
+      "authors": [
+        "Francesco Chiumento"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I83019370",
+      "name": "Eindhoven University of Technology",
+      "city": "Eindhoven",
+      "country": "NL",
+      "latitude": 51.44083,
+      "longitude": 5.47778,
+      "authors": [
+        "Joeri Kok",
+        "Melissa S. A. M. Bevers",
+        "Mojtaba Barzegari"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I2801952686",
+      "name": "Erasmus MC",
+      "city": "Rotterdam",
+      "country": "NL",
+      "latitude": 51.9225,
+      "longitude": 4.47917,
+      "authors": [
+        "Jukka Hirvasniemi",
+        "Mariska Wesseling"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I2972652528",
+      "name": "FHNW University of Applied Sciences and Arts Northwestern Switzerland",
+      "city": "Windisch",
+      "country": "CH",
+      "latitude": 47.47899,
+      "longitude": 8.21842,
+      "authors": [
+        "Patrik Christen"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4408744621",
+          "title": "Structural alterations during fracture healing lead to void spaces developing in surrounding bone microarchitecture",
+          "year": 2025,
+          "doi": "https://doi.org/10.1093/jbmr/zjaf046"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210121742",
+      "name": "Istituto Ortopedico Rizzoli",
+      "city": "Bologna",
+      "country": "IT",
+      "latitude": 44.49381,
+      "longitude": 11.33875,
+      "authors": [
+        "Alfonso Dario Santamaria",
+        "Enrico Schileo",
+        "Fulvia Taddei",
+        "Gianluigi Crimi",
+        "Giulia Fraterrigo"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I74786994",
+      "name": "Kitware (United States)",
+      "city": "New York",
+      "country": "US",
+      "latitude": 40.714271545410156,
+      "longitude": -74.00596618652344,
+      "authors": [
+        "Dženan Zukić",
+        "Jared Vicory"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210140268",
+      "name": "Klinik Sonnenhof",
+      "city": "Bern",
+      "country": "CH",
+      "latitude": 46.94296646118164,
+      "longitude": 7.473720073699951,
+      "authors": [
+        "Matthias A. Zumstein"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4408744621",
+          "title": "Structural alterations during fracture healing lead to void spaces developing in surrounding bone microarchitecture",
+          "year": 2025,
+          "doi": "https://doi.org/10.1093/jbmr/zjaf046"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I99464096",
+      "name": "KU Leuven",
+      "city": "Leuven",
+      "country": "BE",
+      "latitude": 50.87959,
+      "longitude": 4.70093,
+      "authors": [
+        "Cecilia Liberati",
+        "Jilmen Quintiens"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I187531555",
+      "name": "Lund University",
+      "city": "Lund",
+      "country": "SE",
+      "latitude": 55.70584,
+      "longitude": 13.19321,
+      "authors": [
+        "Lorenzo Grassi"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I34352273",
+      "name": "Maastricht University",
+      "city": "Maastricht",
+      "country": "NL",
+      "latitude": 50.84833,
+      "longitude": 5.68889,
+      "authors": [
+        "Melissa S. A. M. Bevers"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I99043593",
+      "name": "Macquarie University",
+      "city": "Sydney",
+      "country": "AU",
+      "latitude": -33.86785,
+      "longitude": 151.20732,
+      "authors": [
+        "Matthias A. Zumstein"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4408744621",
+          "title": "Structural alterations during fracture healing lead to void spaces developing in surrounding bone microarchitecture",
+          "year": 2025,
+          "doi": "https://doi.org/10.1093/jbmr/zjaf046"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I5023651",
+      "name": "McGill University",
+      "city": "Montreal",
+      "country": "CA",
+      "latitude": 45.50884,
+      "longitude": -73.58781,
+      "authors": [
+        "Bettina  M. Willie",
+        "Seyedmahdi Hosseinitabatabaei"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I2801498763",
+      "name": "Odense University Hospital",
+      "city": "Odense",
+      "country": "DK",
+      "latitude": 55.395938873291016,
+      "longitude": 10.388310432434082,
+      "authors": [
+        "Morten Frost"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4300167442",
+          "title": "Meta-analysis of Diabetes Mellitus-Associated Differences in Bone Structure Assessed by High-Resolution Peripheral Quantitative Computed Tomography",
+          "year": 2022,
+          "doi": "https://doi.org/10.1007/s11914-022-00755-6"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I2802229908",
+      "name": "Paul Scherrer Institute",
+      "city": "Villigen",
+      "country": "CH",
+      "latitude": 47.52682,
+      "longitude": 8.21486,
+      "authors": [
+        "Gianluca Iori"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210133394",
+      "name": "Philadelphia VA Medical Center",
+      "city": "Philadelphia",
+      "country": "US",
+      "latitude": 39.9479866027832,
+      "longitude": -75.20004272460938,
+      "authors": [
+        "Joshua F. Baker"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7128678583",
+          "title": "Association of immune checkpoint inhibitors with muscle mass and density in patients with melanoma",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/oncolo/oyag029"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I219193219",
+      "name": "Purdue University West Lafayette",
+      "city": "West Lafayette",
+      "country": "US",
+      "latitude": 40.42587,
+      "longitude": -86.90807,
+      "authors": [
+        "Rachel  Kathleen Surowiec",
+        "YoungJun Lee"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I2802934949",
+      "name": "Radboud University Medical Center",
+      "city": "Nijmegen",
+      "country": "NL",
+      "latitude": 51.842498779296875,
+      "longitude": 5.852779865264893,
+      "authors": [
+        "Donnie Cameron"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4388891853",
+      "name": "Schroeder Arthritis Institute",
+      "city": "Toronto",
+      "country": "",
+      "latitude": 43.700111389160156,
+      "longitude": -79.41629791259766,
+      "authors": [
+        "Andy Kin On Wong"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210112317",
+      "name": "Schulthess-Klinik",
+      "city": "Zurich",
+      "country": "CH",
+      "latitude": 47.36667,
+      "longitude": 8.55,
+      "authors": [
+        "Vincent A. Stadelmann"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I2802125861",
+      "name": "Shriners Hospitals for Children - Canada",
+      "city": "Montreal",
+      "country": "CA",
+      "latitude": 45.50007247924805,
+      "longitude": -73.58821868896484,
+      "authors": [
+        "Bettina  M. Willie"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210140478",
+      "name": "SpaceX (United States)",
+      "city": "Hawthorne",
+      "country": "US",
+      "latitude": 33.92089080810547,
+      "longitude": -118.32836151123047,
+      "authors": [
+        "Jaime Mateus",
+        "Marissa J. F. Rosenberg"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130608854",
+          "title": "Early skeletal deteriorations following short-duration spaceflight",
+          "year": 2026,
+          "doi": "https://doi.org/10.1038/s41526-026-00578-0"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4405273041",
+      "name": "Stiftung FHNW",
+      "city": "Windisch",
+      "country": "CH",
+      "latitude": 47.47588,
+      "longitude": 8.2221,
+      "authors": [
+        "Patrik Christen"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4408744621",
+          "title": "Structural alterations during fracture healing lead to void spaces developing in surrounding bone microarchitecture",
+          "year": 2025,
+          "doi": "https://doi.org/10.1093/jbmr/zjaf046"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I165779595",
+      "name": "The University of Melbourne",
+      "city": "Melbourne",
+      "country": "AU",
+      "latitude": -37.814,
+      "longitude": 144.96332,
+      "authors": [
+        "Ali Ghasem-Zadeh",
+        "Kathryn S. Stok",
+        "Michelle Alejandra Espinosa-Hernandez",
+        "Pholpat Durongbhan"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I1325899441",
+      "name": "University Health Network",
+      "city": "Toronto",
+      "country": "CA",
+      "latitude": 43.70643,
+      "longitude": -79.39864,
+      "authors": [
+        "Andy Kin On Wong"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I154425047",
+      "name": "University of Alberta",
+      "city": "Edmonton",
+      "country": "CA",
+      "latitude": 53.55014,
+      "longitude": -113.46871,
+      "authors": [
+        "Carrie Ye",
+        "Jasmine Gill",
+        "John Walker",
+        "Thomas G. Salopek"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7128678583",
+          "title": "Association of immune checkpoint inhibitors with muscle mass and density in patients with melanoma",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/oncolo/oyag029"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210106641",
+      "name": "University of Applied Sciences Erfurt",
+      "city": "Erfurt",
+      "country": "DE",
+      "latitude": 50.98488235473633,
+      "longitude": 11.042713165283203,
+      "authors": [
+        "Martina A. Heer"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4412704756",
+          "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
+          "year": 2025,
+          "doi": "https://doi.org/10.1038/s41526-025-00511-x"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I1850255",
+      "name": "University of Basel",
+      "city": "Basel",
+      "country": "CH",
+      "latitude": 47.55839,
+      "longitude": 7.57327,
+      "authors": [
+        "Francesco Santini",
+        "Paul Ritsche",
+        "Sabine Räuber"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I180670191",
+      "name": "University of California, San Francisco",
+      "city": "San Francisco",
+      "country": "US",
+      "latitude": 37.77493,
+      "longitude": -122.41942,
+      "authors": [
+        "Andrew J. Burghardt"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I138689650",
+      "name": "University of Padua",
+      "city": "Padua",
+      "country": "IT",
+      "latitude": 45.40797,
+      "longitude": 11.88586,
+      "authors": [
+        "Fabio Sarto"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I79576946",
+      "name": "University of Pennsylvania",
+      "city": "Philadelphia",
+      "country": "US",
+      "latitude": 39.95238,
+      "longitude": -75.16362,
+      "authors": [
+        "Joshua F. Baker"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7128678583",
+          "title": "Association of immune checkpoint inhibitors with muscle mass and density in patients with melanoma",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/oncolo/oyag029"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I63072094",
+      "name": "University of Portsmouth",
+      "city": "Portsmouth",
+      "country": "GB",
+      "latitude": 50.798988342285156,
+      "longitude": -1.091249942779541,
+      "authors": [
+        "Martino Pani"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I91136226",
+      "name": "University of Sheffield",
+      "city": "Sheffield",
+      "country": "GB",
+      "latitude": 53.38297,
+      "longitude": -1.4659,
+      "authors": [
+        "Ankita Duseja",
+        "Margaret Paggiosi",
+        "Richard Eastell",
+        "Tatiane Vilaça"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4390600743",
+          "title": "Bone remodeling and responsiveness to mechanical stimuli in individuals with type 1 diabetes mellitus",
+          "year": 2024,
+          "doi": "https://doi.org/10.1093/jbmr/zjad014"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I177969490",
+      "name": "University of Southern Denmark",
+      "city": "Odense",
+      "country": "DK",
+      "latitude": 55.39594,
+      "longitude": 10.38831,
+      "authors": [
+        "Morten Frost"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4300167442",
+          "title": "Meta-analysis of Diabetes Mellitus-Associated Differences in Bone Structure Assessed by High-Resolution Peripheral Quantitative Computed Tomography",
+          "year": 2022,
+          "doi": "https://doi.org/10.1007/s11914-022-00755-6"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I185261750",
+      "name": "University of Toronto",
+      "city": "Toronto",
+      "country": "CA",
+      "latitude": 43.70643,
+      "longitude": -79.39864,
+      "authors": [
+        "Andy Kin On Wong",
+        "Michelle Alejandra Espinosa-Hernandez"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I223532165",
+      "name": "University of Utah",
+      "city": "Salt Lake City",
+      "country": "US",
+      "latitude": 40.76078,
+      "longitude": -111.89105,
+      "authors": [
+        "Denis Schenk",
+        "Penny R. Atkins",
+        "Philippe K. Zysset"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4386399752",
+          "title": "A multi-stack registration technique to improve measurement accuracy and precision across longitudinal HR-pQCT scans",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116893"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210116663",
+      "name": "VieCuri Medisch Centrum",
+      "city": "Venlo",
+      "country": "NL",
+      "latitude": 51.37,
+      "longitude": 6.16806,
+      "authors": [
+        "Melissa S. A. M. Bevers"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        }
+      ]
+    }
+  ]
+}

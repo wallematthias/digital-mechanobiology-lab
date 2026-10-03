@@ -1,0 +1,5 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+const path=new URL('./network.mjs',import.meta.url);
+test('network aggregation is available',async()=>{assert.equal((await import(path).catch(()=>({}))).aggregateNetwork instanceof Function,true);});
+test('coauthors and papers deduplicate and missing coordinates stay off map',async()=>{const {aggregateNetwork}=await import(path);const work={id:'W1',title:'Bone',publication_year:2024,doi:'https://doi.org/10.1/test',authorships:[{author:{id:'ME',display_name:'Me'},institutions:[{id:'I1'}]},{author:{id:'A1',display_name:'Alice'},institutions:[{id:'I1'},{id:'I1'},{id:'I2'}]}]};const nodes=aggregateNetwork([work,work],{'I1':{display_name:'University',geo:{latitude:51,longitude:-114}},'I2':{display_name:'Unknown',geo:{}}},'ME',{});assert.equal(nodes.length,1);assert.equal(nodes[0].papers.length,1);assert.deepEqual(nodes[0].authors,['Alice']);assert.equal(aggregateNetwork([work],{'I1':{geo:{latitude:51,longitude:-114}}},'ME',{excludeInstitutions:['I1']}).length,0);assert.equal(aggregateNetwork([work],{},'OTHER',{}).length,0);});

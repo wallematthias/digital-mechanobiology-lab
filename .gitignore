@@ -1,0 +1,11 @@
+_site/
+.build-manifest.json
+research/*.html
+projects/*.html
+opportunities/*.html
+people/*.html
+__pycache__/
+*.pyc
+*.tmp
+*preview*.png
+.DS_Store
