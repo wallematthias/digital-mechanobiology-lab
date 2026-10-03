@@ -1,5 +1,5 @@
 ---
-{"title":"Imaging and mechanobiology of bone metastases","order":1,"status":"direction","theme":"Cancer–Bone Mechanobiology","level":"MSc / PhD","skills":["Deep learning","Radiomics","Finite element modelling","Clinical imaging"],"summary":"Develop imaging-based measures of treatment response and investigate how the mechanical environment relates to metastatic growth."}
+{"title":"Imaging and mechanobiology of bone metastases","order":1,"status":"direction","theme":"Cancer–Bone Mechanobiology","level":"MSc / PhD","skills":["Deep learning","Radiomics","Finite element modelling","Clinical imaging"],"summary":"Develop imaging-based measures of treatment response and investigate how the mechanical environment relates to metastatic growth.","image":"assets/research/bone-metastasis-workflow.png","imageAlt":"Longitudinal bone-metastasis CT workflow: baseline and follow-up scans, deep-learning segmentation, anatomy-constrained registration, deformation field, and density change."}
 ---
 ## Introduction
 

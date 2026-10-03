@@ -6,8 +6,30 @@ import {join} from 'node:path';
 import {spawnSync} from 'node:child_process';
 const root=new URL('../',import.meta.url);
 const document=(meta,body='Profile')=>`---\n${JSON.stringify(meta)}\n---\n${body}`;
-async function fixture(t){const dir=await mkdtemp(join(tmpdir(),'lab-site-test-'));t.after(()=>rm(dir,{recursive:true,force:true}));for(const name of ['scripts','templates','content'])await cp(new URL(name,root),join(dir,name),{recursive:true});await mkdir(join(dir,'assets'));await cp(new URL('assets/research/',root),join(dir,'assets/research'),{recursive:true});await writeFile(join(dir,'assets/matthias-walle.png'),'fixture portrait');return dir;}
+async function fixture(t){const dir=await mkdtemp(join(tmpdir(),'lab-site-test-'));t.after(()=>rm(dir,{recursive:true,force:true}));for(const name of ['scripts','templates','content'])await cp(new URL(name,root),join(dir,name),{recursive:true});await mkdir(join(dir,'assets'));await cp(new URL('assets/research/',root),join(dir,'assets/research'),{recursive:true});await cp(new URL('assets/brand/',root),join(dir,'assets/brand'),{recursive:true});await writeFile(join(dir,'assets/matthias-walle.png'),'fixture portrait');return dir;}
 const build=dir=>spawnSync(process.execPath,['scripts/build.mjs'],{cwd:dir,encoding:'utf8'});
+test('all published pages resolve their lab logo and icons within the site subpath',async t=>{
+ const dir=await fixture(t);
+ for(const name of ['dm-mark.svg','favicon.svg','apple-touch-icon.png','social-card.png'])await writeFile(join(dir,'assets/brand',name),'brand fixture');
+ assert.equal(build(dir).status,0);
+ for(const path of ['index.html','people/members.html','opportunities/01-cancer-imaging.html']){
+  const html=await readFile(join(dir,'_site',path),'utf8');
+  const prefix=path==='index.html'?'':'../';
+  assert.ok(html.includes(`href="${prefix}assets/brand/favicon.svg"`),`${path} favicon`);
+  assert.ok(html.includes(`src="${prefix}assets/brand/dm-mark.svg"`),`${path} logo`);
+  assert.ok(html.includes(`href="${prefix}assets/brand/apple-touch-icon.png"`),`${path} mobile icon`);
+ }
+ assert.equal(await readFile(join(dir,'_site/assets/brand/favicon.svg'),'utf8'),'brand fixture');
+});
+test('student project figures appear in cards and deploy with their detail page',async t=>{
+ const dir=await fixture(t);
+ await writeFile(join(dir,'assets/research/student-figure.png'),'student figure');
+ await writeFile(join(dir,'content/opportunities/illustrated-student.md'),document({title:'Student project',status:'direction',level:'MSc / PhD',image:'assets/research/student-figure.png',imageAlt:'Longitudinal CT workflow'}));
+ const result=build(dir);assert.equal(result.status,0,result.stderr);
+ assert.match(await readFile(join(dir,'_site/index.html'),'utf8'),/<img[^>]*src="assets\/research\/student-figure.png"[^>]*alt="Longitudinal CT workflow"/);
+ assert.match(await readFile(join(dir,'_site/opportunities/illustrated-student.html'),'utf8'),/src="\.\.\/assets\/research\/student-figure.png"/);
+ assert.equal(await readFile(join(dir,'_site/assets/research/student-figure.png'),'utf8'),'student figure');
+});
 test('a new member portrait is included in deployable output',async t=>{const dir=await fixture(t);await writeFile(join(dir,'assets','new-member.jpg'),'fixture image');await writeFile(join(dir,'content/people/new-member.md'),document({title:'New Member',status:'current',role:'Student',image:'assets/new-member.jpg'}));const result=build(dir);assert.equal(result.status,0,result.stderr);assert.equal(await readFile(join(dir,'_site/assets/new-member.jpg'),'utf8'),'fixture image');});
 test('unsafe filename slugs are rejected before generating HTML',async t=>{const dir=await fixture(t);await writeFile(join(dir,'content/projects/unsafe"slug.md'),document({title:'Unsafe',summary:'Test'}));assert.notEqual(build(dir).status,0);});
 test('a drafted project disappears from root preview and publication output',async t=>{const dir=await fixture(t);const file=join(dir,'content/projects/lifecycle.md');await writeFile(file,document({title:'Lifecycle',status:'published',summary:'Test'}));assert.equal(build(dir).status,0);await access(join(dir,'_site/projects/lifecycle.html'));await writeFile(file,document({title:'Lifecycle',status:'draft',summary:'Test'}));assert.equal(build(dir).status,0);await assert.rejects(access(join(dir,'projects/lifecycle.html')));await assert.rejects(access(join(dir,'_site/projects/lifecycle.html')));assert.ok(!(await readFile(join(dir,'index.html'),'utf8')).includes('Lifecycle'));});
