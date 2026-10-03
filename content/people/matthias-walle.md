@@ -1,7 +1,7 @@
 ---
 {"title":"Matthias Walle, PhD","role":"Principal Investigator · Assistant Professor","status":"current","order":1,"pi":true,"image":"assets/matthias-walle.png"}
 ---
-I am an Assistant Professor in the Department of Radiology at the University of Calgary. I work at the intersection of medical imaging, computational modelling, and musculoskeletal research. My research examines how the mechanical environment influences tissue behaviour using imaging and simulation methods.
+I am an Assistant Professor in the Department of Radiology at the University of Calgary. Our lab is based in the [McCaig Institute for Bone and Joint Health](https://mccaig.ucalgary.ca/). I work at the intersection of medical imaging, computational modelling, and musculoskeletal research. My research examines how the mechanical environment influences tissue behaviour using imaging and simulation methods.
 
 I completed my PhD at ETH Zurich, where I received the ETH Medal for my work on bone health in diabetes and developed methods to study bone adaptation using longitudinal high-resolution imaging. At the University of Calgary, I combine medical imaging, finite element modelling, and machine learning to study bone metastases, spinal alignment, and bone mechanobiology.
 
