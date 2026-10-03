@@ -1,0 +1,43 @@
+name: Refresh publications
+on:
+  schedule:
+    - cron: '23 8 1 * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: refresh-publications
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch ORCID-matched OpenAlex records
+        run: npm run publications:refresh
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+      - run: npm test
+      - run: npm run build
+      - name: Open or update review pull request
+        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7
+        with:
+          add-paths: 'content/publications/*.md'
+          branch: automation/publications-refresh
+          base: main
+          commit-message: 'Refresh publications from OpenAlex'
+          title: 'Review OpenAlex publications updates'
+          body: |
+            Monthly OpenAlex refresh, matched against Matthias Walle's ORCID.
+            Tests and the site build ran before this PR was opened.
+            Review indexing accuracy before merging. No automatic merge or deployment.
+            Edit curated content on main, not this regenerating automation branch.

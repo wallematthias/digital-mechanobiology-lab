@@ -75,3 +75,12 @@ Once deployed, you can use GitHub's browser editor to update a content file, rev
 - Review the network for duplicate institutions or incorrect metadata.
 - Verify that software links are publicly accessible and ready to promote.
 - The hero is a synthetic conceptual illustration, not real scan data or an actual FE solution; its accessible description says so.
+# Automatic OpenAlex refreshes
+
+Two GitHub Actions check publications and the research network on the first of each month (08:23 and 08:43 UTC). They can also be run manually from Actions. Changes open or update separate review pull requests; nothing is automatically merged or published. Tests and a full build run within each refresh, since PRs created with GitHub's built-in token do not trigger the separate PR workflow.
+
+Publication refreshes only add new Markdown files. Existing entries, including drafts, are never overwritten. Matching uses DOI, normalized title and OpenAlex ID; preprints and repository copies are skipped. Review publication type, author list and date before merging, since OpenAlex can misclassify abstracts. Put unwanted OpenAlex work URLs in `content/publication-overrides.json` under `excludeWorks` to prevent reimporting a removed record.
+
+Network corrections belong in `content/network-overrides.json`. An unchanged network produces no date-only update. Both refreshes verify the author ORCID before writing. Failed requests leave existing data intact.
+
+Make manual edits on main rather than the regenerating `automation/*-refresh` branches. OpenAlex's optional API key can be stored as the repository Actions secret `OPENALEX_API_KEY` if anonymous access becomes restricted. No key is currently required for these small refreshes. GitHub Actions must be allowed to create pull requests; the jobs request only contents and pull-request write permissions.

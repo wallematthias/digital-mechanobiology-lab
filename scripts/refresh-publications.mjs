@@ -1,0 +1,12 @@
+import {readdir,readFile,writeFile} from 'node:fs/promises';
+import {parseContent} from './content.mjs';
+import {authorWorks} from './openalex.mjs';
+import {planImports} from './publications.mjs';
+const root=new URL('../',import.meta.url),dir=new URL('content/publications/',root);
+const works=await authorWorks();
+const files=(await readdir(dir)).filter(f=>f.endsWith('.md'));
+const existing=await Promise.all(files.map(async f=>parseContent(await readFile(new URL(f,dir),'utf8'))));
+const overrides=JSON.parse(await readFile(new URL('content/publication-overrides.json',root),'utf8'));
+const additions=planImports(works,existing,overrides);
+for(const addition of additions)await writeFile(new URL(addition.filename,dir),addition.text,{flag:'wx'});
+console.log(`Added ${additions.length} publications; existing files were not modified.`);
