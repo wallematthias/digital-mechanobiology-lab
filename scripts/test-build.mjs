@@ -8,6 +8,18 @@ const root=new URL('../',import.meta.url);
 const document=(meta,body='Profile')=>`---\n${JSON.stringify(meta)}\n---\n${body}`;
 async function fixture(t){const dir=await mkdtemp(join(tmpdir(),'lab-site-test-'));t.after(()=>rm(dir,{recursive:true,force:true}));for(const name of ['scripts','templates','content'])await cp(new URL(name,root),join(dir,name),{recursive:true});await mkdir(join(dir,'assets'));await cp(new URL('assets/research/',root),join(dir,'assets/research'),{recursive:true});await cp(new URL('assets/brand/',root),join(dir,'assets/brand'),{recursive:true});await writeFile(join(dir,'assets/matthias-walle.png'),'fixture portrait');return dir;}
 const build=dir=>spawnSync(process.execPath,['scripts/build.mjs'],{cwd:dir,encoding:'utf8'});
+test('student videos deploy only on project detail pages with controls and no autoplay',async t=>{
+ const dir=await fixture(t);
+ await writeFile(join(dir,'assets/research/student-video.mp4'),'video fixture');
+ await writeFile(join(dir,'content/opportunities/video-student.md'),document({title:'Video project',status:'direction',video:'assets/research/student-video.mp4',videoAlt:'Rotating spine model'}));
+ const result=build(dir);assert.equal(result.status,0,result.stderr);
+ const detail=await readFile(join(dir,'_site/opportunities/video-student.html'),'utf8');
+ assert.match(detail,/<video[^>]*controls[^>]*>/);
+ assert.match(detail,/src="\.\.\/assets\/research\/student-video.mp4"/);
+ assert.ok(!detail.includes('autoplay'));
+ assert.ok(!(await readFile(join(dir,'_site/index.html'),'utf8')).includes('student-video.mp4'));
+ assert.equal(await readFile(join(dir,'_site/assets/research/student-video.mp4'),'utf8'),'video fixture');
+});
 test('all published pages resolve their lab logo and icons within the site subpath',async t=>{
  const dir=await fixture(t);
  for(const name of ['dm-mark.svg','favicon.svg','apple-touch-icon.png','social-card.png'])await writeFile(join(dir,'assets/brand',name),'brand fixture');

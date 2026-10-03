@@ -1,5 +1,5 @@
 ---
-{"title":"Spinal Alignment & Mechanobiology","order":2,"visual":"model","tags":"ALIGNMENT · LOADING · DEGENERATION","summary":"Studying how spinal alignment changes loading, and how those mechanical conditions relate to degeneration and tissue adaptation."}
+{"title":"Spine Mechanobiology","order":2,"visual":"model","tags":"ALIGNMENT · LOADING · DEGENERATION","summary":"Studying how spinal alignment changes loading, and how those mechanical conditions relate to degeneration and tissue adaptation."}
 ---
 In adult spinal deformity, alignment and tissue degeneration change together. Our aim is to connect these changes through multimodal imaging and computational mechanics, rather than treating alignment as a geometric measurement alone.
 
