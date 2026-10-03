@@ -16,17 +16,17 @@ test('all published pages resolve their lab logo and icons within the site subpa
   const html=await readFile(join(dir,'_site',path),'utf8');
   const prefix=path==='index.html'?'':'../';
   assert.ok(html.includes(`href="${prefix}assets/brand/favicon.svg"`),`${path} favicon`);
-  assert.ok(html.includes(`src="${prefix}assets/brand/dm-mark.svg"`),`${path} logo`);
+  assert.match(html,/<span class="mark"[^>]*>dm<span>·<\/span><\/span>/,`${path} original logo`);
   assert.ok(html.includes(`href="${prefix}assets/brand/apple-touch-icon.png"`),`${path} mobile icon`);
  }
  assert.equal(await readFile(join(dir,'_site/assets/brand/favicon.svg'),'utf8'),'brand fixture');
 });
-test('student project figures appear in cards and deploy with their detail page',async t=>{
+test('student project figures stay off homepage cards and deploy with their detail page',async t=>{
  const dir=await fixture(t);
  await writeFile(join(dir,'assets/research/student-figure.png'),'student figure');
  await writeFile(join(dir,'content/opportunities/illustrated-student.md'),document({title:'Student project',status:'direction',level:'MSc / PhD',image:'assets/research/student-figure.png',imageAlt:'Longitudinal CT workflow'}));
  const result=build(dir);assert.equal(result.status,0,result.stderr);
- assert.match(await readFile(join(dir,'_site/index.html'),'utf8'),/<img[^>]*src="assets\/research\/student-figure.png"[^>]*alt="Longitudinal CT workflow"/);
+ assert.ok(!(await readFile(join(dir,'_site/index.html'),'utf8')).includes('assets/research/student-figure.png'));
  assert.match(await readFile(join(dir,'_site/opportunities/illustrated-student.html'),'utf8'),/src="\.\.\/assets\/research\/student-figure.png"/);
  assert.equal(await readFile(join(dir,'_site/assets/research/student-figure.png'),'utf8'),'student figure');
 });
