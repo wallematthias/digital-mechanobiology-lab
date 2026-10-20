@@ -28,7 +28,7 @@ Research highlights appear at the bottom of their research area's separate page,
 
 Publications are grouped by year, newest first; `date` sorts within a year. The three latest publication years are displayed, with earlier years in an expandable list. Set `kind` to `Book chapter` for a chapter. Avoid listing a preprint again when its journal article is already included. Publication content is manually editable; refreshing the collaborator map does not overwrite it.
 
-The current student recruitment directions are bone-metastasis mechanobiology and spinal alignment/degeneration. The open-tools opportunity is preserved as a draft. Change a direction to `open` only after degree level, funding and application arrangements are confirmed.
+The homepage Open Positions section embeds the live public MSK Research listing, filtered to Matthias Walle. Create, edit or close recruitment postings in the MSK Research faculty workspace; the lab listing updates on page load without a rebuild or GitHub edit. The adjacent link provides direct access if the embed cannot load. Local `content/opportunities/` files retain the longer research descriptions and figures on their detail pages; they do not populate the homepage listings. The open-tools description is preserved as a draft.
 
 ## Build and preview
 
