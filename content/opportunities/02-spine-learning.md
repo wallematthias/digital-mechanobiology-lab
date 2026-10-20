@@ -1,5 +1,5 @@
 ---
-{"title":"Spinal alignment, degeneration and mechanobiology","image":"assets/research/spinal-alignment-rotation.gif","imageAlt":"Rotating three-dimensional spine model showing spinal curvature and individually coloured vertebrae","order":2,"status":"direction","theme":"Spine Mechanobiology","level":"MSc / PhD","skills":["Multimodal imaging","Deep learning","Biomechanics","Longitudinal analysis"],"summary":"Combine CT, MRI and radiographs to study how spinal alignment, loading and tissue degeneration change together over time."}
+{"title":"Spinal alignment, degeneration and mechanobiology","image":"assets/research/spinal-alignment-rotation.gif","imageAlt":"Rotating three-dimensional spine model showing spinal curvature and individually coloured vertebrae","order":2,"status":"direction","theme":"Spine Mechanobiology","level":"MSc / PhD","skills":["Multimodal imaging","Deep learning","Biomechanics","Longitudinal analysis"],"summary":"Combine CT, MRI and radiographs to study how spinal alignment, loading and tissue degeneration change together over time.","applicationUrl":"https://mskresearch.ca/#page=project&project=319ddc50-b5ae-4366-a59c-c786dc474388"}
 ---
 ## Introduction
 
@@ -46,4 +46,4 @@ The project builds on methods described in our [GigaScience vertebral-strength b
 
 ## Contact
 
-Send a short introduction, CV, intended degree, and your research interests to Matthias Walle. Include a relevant project or code example if you have one.
+[Submit your interest through MSK Research](https://mskresearch.ca/#page=project&project=319ddc50-b5ae-4366-a59c-c786dc474388). Include your intended degree, research interests, relevant experience and available dates. No student account is required. Supervision, admission and funding are discussed individually.

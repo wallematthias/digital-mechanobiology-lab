@@ -1,5 +1,5 @@
 ---
-{"title":"Imaging and mechanobiology of bone metastases","order":1,"status":"direction","theme":"Cancer–Bone Mechanobiology","level":"MSc / PhD","skills":["Deep learning","Radiomics","Finite element modelling","Clinical imaging"],"summary":"Develop imaging-based measures of treatment response and investigate how the mechanical environment relates to metastatic growth.","image":"assets/research/bone-metastasis-workflow.png","imageAlt":"Longitudinal bone-metastasis CT workflow: baseline and follow-up scans, deep-learning segmentation, anatomy-constrained registration, deformation field, and density change."}
+{"title":"Imaging and mechanobiology of bone metastases","order":1,"status":"direction","theme":"Cancer–Bone Mechanobiology","level":"MSc / PhD","skills":["Deep learning","Radiomics","Finite element modelling","Clinical imaging"],"summary":"Develop imaging-based measures of treatment response and investigate how the mechanical environment relates to metastatic growth.","image":"assets/research/bone-metastasis-workflow.png","imageAlt":"Longitudinal bone-metastasis CT workflow: baseline and follow-up scans, deep-learning segmentation, anatomy-constrained registration, deformation field, and density change.","applicationUrl":"https://mskresearch.ca/#page=project&project=3c144812-580c-4399-b6a2-b53a1fbc75eb"}
 ---
 ## Introduction
 
@@ -39,4 +39,4 @@ The project is suited to students in engineering, computer science, physics, bio
 
 ## Contact
 
-Send a short introduction, CV, intended degree, and your research interests to Matthias Walle. Include a relevant project or code example if you have one.
+[Submit your interest through MSK Research](https://mskresearch.ca/#page=project&project=3c144812-580c-4399-b6a2-b53a1fbc75eb). Include your intended degree, research interests, relevant experience and available dates. No student account is required. Supervision, admission and funding are discussed individually.
