@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1098" height="670" viewBox="0 0 1098 670" fill="none"><title>Logo symbol · colour</title><g transform="translate(0 0) scale(1) translate(-70 -295)"><defs>
+ <linearGradient id="charcoal" x1="130" y1="470" x2="510" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#1f1f1f"/><stop offset="1" stop-color="#1f1f1f"/></linearGradient>
+ <linearGradient id="colour" x1="326" y1="705" x2="1146" y2="705" gradientUnits="userSpaceOnUse"><stop stop-color="#f15a24"/><stop offset=".42" stop-color="#e52b28"/><stop offset=".7" stop-color="#d5192c"/><stop offset="1" stop-color="#c8102e"/></linearGradient>
+
+<clipPath id="m-clip"><path d="M345 701 L610.34693432 542.01571007 A190 190 0 0 1 832 561.04167270 A190 190 0 0 1 1146 705 L1146 931 L1014 931 L1014 701 A58 58 0 0 0 898 701 L898 931 L766 931 L766 701 A58 58 0 0 0 650 701 L650 931 L345 701 Z"/></clipPath>
+</defs>
+<g id="charcoal-symbol" fill="url(#charcoal)">
+<path d="M526 571.56909045 L467.80992982 606.43403816 A155 155 0 1 0 457.08114411 808.06454658 L526 860.03614282 L526 866.11813952 A245 245 0 1 1 403 462.96428839 L403 327 Q403 315 415 315 L514 315 Q526 315 526 327 Z"/>
+<path d="M453.11540350 615.23835632 L427.09657866 630.82769939 A108 108 0 1 0 419.18633745 779.48813500 L443.40390513 797.75056308 A138 138 0 1 1 453.11540350 615.23835632 Z"/>
+</g>
+<path id="colour-symbol" d="M345 701 L610.34693432 542.01571007 A190 190 0 0 1 832 561.04167270 A190 190 0 0 1 1146 705 L1146 931 L1014 931 L1014 701 A58 58 0 0 0 898 701 L898 931 L766 931 L766 701 A58 58 0 0 0 650 701 L650 931 L345 701 Z" fill="url(#colour)"/>
+<g clip-path="url(#m-clip)" stroke="#fffdf4" stroke-linecap="round" stroke-linejoin="round">
+<g id="radiating-curves" stroke-width="3.6">
+<path d="M345 701 C443 676 563 591 664 559 C724 539 776 561 835 579"/>
+<path d="M345 701 C439 681 559 618 666 589 C720 574 761 589 805 618"/>
+<path d="M345 701 C446 687 556 638 665 619 C719 610 758 626 793 644"/>
+<path d="M345 701 C436 692 551 659 647 650 C702 644 739 658 768 699"/>
+<path d="M345 701 C441 700 550 678 658 678"/>
+<path d="M345 701 C443 705 551 702 658 705"/>
+<path d="M345 701 C439 715 551 717 658 737"/>
+<path d="M345 701 C440 723 550 742 658 770"/>
+<path d="M345 701 C441 729 549 764 658 806"/>
+<path d="M345 701 C440 740 550 791 658 843"/>
+<path d="M345 701 C438 750 550 816 658 883"/>
+</g>
+<g id="triangular-mesh" stroke-width="2.6">
+<path d="M835 579 L805 618"/>
+<path d="M835 579 L844 647"/>
+<path d="M835 579 L882 605"/>
+<path d="M835 579 L926 564"/>
+<path d="M835 579 L856 552"/>
+<path d="M805 618 L793 644"/>
+<path d="M805 618 L844 647"/>
+<path d="M793 644 L768 699"/>
+<path d="M793 644 L844 647"/>
+<path d="M768 699 L844 647"/>
+<path d="M768 699 L830 780"/>
+<path d="M768 699 L889 711"/>
+<path d="M830 780 L889 711"/>
+<path d="M830 780 L766 828"/>
+<path d="M830 780 L855 882"/>
+<path d="M830 780 L889 821"/>
+<path d="M766 828 L855 882"/>
+<path d="M766 828 L766 931"/>
+<path d="M855 882 L766 931"/>
+<path d="M855 882 L840 931"/>
+<path d="M855 882 L889 914"/>
+<path d="M855 882 L889 821"/>
+<path d="M766 931 L840 931"/>
+<path d="M840 931 L889 914"/>
+<path d="M889 914 L889 821"/>
+<path d="M889 821 L889 711"/>
+<path d="M889 711 L844 647"/>
+<path d="M844 647 L882 605"/>
+<path d="M844 647 L909 654"/>
+<path d="M882 605 L926 564"/>
+<path d="M882 605 L919 622"/>
+<path d="M919 622 L926 564"/>
+<path d="M919 622 L942 636"/>
+<path d="M919 622 L909 654"/>
+<path d="M942 636 L926 564"/>
+<path d="M942 636 L1010 572"/>
+<path d="M942 636 L984 656"/>
+<path d="M909 654 L889 711"/>
+<path d="M926 564 L856 552"/>
+<path d="M926 564 L912 518"/>
+<path d="M926 564 L971 510"/>
+<path d="M926 564 L1010 572"/>
+<path d="M971 510 L1010 572"/>
+<path d="M971 510 L1057 523"/>
+<path d="M1010 572 L1057 523"/>
+<path d="M1010 572 L1099 550"/>
+<path d="M1010 572 L1066 626"/>
+<path d="M1010 572 L984 656"/>
+<path d="M1099 550 L1066 626"/>
+<path d="M1066 626 L1145 641"/>
+<path d="M1066 626 L1084 693"/>
+<path d="M1066 626 L1010 706"/>
+<path d="M1066 626 L984 656"/>
+<path d="M1145 641 L1084 693"/>
+<path d="M1145 641 L1146 693"/>
+<path d="M1084 693 L1146 693"/>
+<path d="M1084 693 L1010 706"/>
+<path d="M1084 693 L1102 758"/>
+<path d="M1010 706 L1102 758"/>
+<path d="M1102 758 L1146 693"/>
+<path d="M1102 758 L1010 797"/>
+<path d="M1102 758 L1146 807"/>
+<path d="M1102 758 L1074 862"/>
+<path d="M1010 797 L1074 862"/>
+<path d="M1010 797 L1042 931"/>
+<path d="M1146 807 L1074 862"/>
+<path d="M1146 807 L1146 899"/>
+<path d="M1074 862 L1146 899"/>
+<path d="M1074 862 L1042 931"/>
+<path d="M1074 862 L1146 931"/>
+<path d="M1146 899 L1146 931"/>
+<path d="M1042 931 L1146 931"/>
+</g>
+<g id="mesh-nodes" fill="#fffdf4" stroke="none">
+<circle cx="835" cy="579" r="4.5"/>
+<circle cx="805" cy="618" r="4.5"/>
+<circle cx="793" cy="644" r="4.5"/>
+<circle cx="830" cy="780" r="4.5"/>
+<circle cx="855" cy="882" r="4.5"/>
+<circle cx="844" cy="647" r="4.5"/>
+<circle cx="882" cy="605" r="4.5"/>
+<circle cx="919" cy="622" r="4.5"/>
+<circle cx="942" cy="636" r="4.5"/>
+<circle cx="926" cy="564" r="4.5"/>
+<circle cx="1010" cy="572" r="4.5"/>
+<circle cx="1066" cy="626" r="4.5"/>
+<circle cx="1084" cy="693" r="4.5"/>
+<circle cx="1102" cy="758" r="4.5"/>
+<circle cx="1074" cy="862" r="4.5"/>
+</g>
+</g>
+<circle id="focus" cx="345" cy="701" r="14" fill="#f15a24"/>
+</g></svg>

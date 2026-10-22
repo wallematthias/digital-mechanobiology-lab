@@ -9,3 +9,5 @@ __pycache__/
 *.tmp
 *preview*.png
 .DS_Store
+
+brand/index.html

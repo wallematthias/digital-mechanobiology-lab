@@ -28,7 +28,7 @@ test('all published pages resolve their lab logo and icons within the site subpa
   const html=await readFile(join(dir,'_site',path),'utf8');
   const prefix=path==='index.html'?'':'../';
   assert.ok(html.includes(`href="${prefix}assets/brand/favicon.svg"`),`${path} favicon`);
-  assert.match(html,/<span class="mark"[^>]*>dm<span>·<\/span><\/span>/,`${path} original logo`);
+  assert.ok(html.includes(`src="${prefix}assets/brand/dm-mark.svg"`),`${path} approved logo`);
   assert.ok(html.includes(`href="${prefix}assets/brand/apple-touch-icon.png"`),`${path} mobile icon`);
  }
  assert.equal(await readFile(join(dir,'_site/assets/brand/favicon.svg'),'utf8'),'brand fixture');
@@ -65,3 +65,18 @@ test('empty member categories are hidden',async t=>{const dir=await fixture(t);a
 test('project figures render accessibly and are copied to deployment',async t=>{const dir=await fixture(t);await writeFile(join(dir,'assets/research/example.jpg'),'fixture research figure');await writeFile(join(dir,'content/projects/illustrated.md'),document({title:'Illustrated project',summary:'Example',status:'published',theme:'Bone Adaptation & Remodelling',image:'assets/research/example.jpg',imageAlt:'Registered bone changes',imageCredit:'Walle et al., Figure 2 · CC BY 4.0',url:'https://doi.org/example'}));const result=build(dir);assert.equal(result.status,0,result.stderr);const home=await readFile(join(dir,'index.html'),'utf8');assert.ok(!home.includes('Illustrated project'));assert.ok(home.includes('research-grid'));const html=await readFile(join(dir,'_site/research/03-bone-adaptation.html'),'utf8');assert.match(html,/<img[^>]*src="\.\.\/assets\/research\/example.jpg"[^>]*alt="Registered bone changes"/);assert.ok(html.includes('Walle et al., Figure 2 · CC BY 4.0'));assert.equal(await readFile(join(dir,'_site/assets/research/example.jpg'),'utf8'),'fixture research figure');const page=await readFile(join(dir,'_site/projects/illustrated.html'),'utf8');assert.ok(page.includes('src="../assets/research/example.jpg"'));});
 test('project image paths cannot escape the asset directory',async t=>{const dir=await fixture(t);await writeFile(join(dir,'secret.jpg'),'private');await writeFile(join(dir,'content/projects/unsafe-image.md'),document({title:'Unsafe image',summary:'Example',image:'assets/../secret.jpg'}));const result=build(dir);assert.notEqual(result.status,0);assert.match(result.stderr,/Invalid local image path/);});
 test('publications render newest year first regardless of editorial order',async t=>{const dir=await fixture(t);await writeFile(join(dir,'content/publications/older.md'),document({title:'Older publication',year:2020,order:0,journal:'Journal',url:'https://doi.org/older'}));await writeFile(join(dir,'content/publications/newer.md'),document({title:'Newest publication',year:2027,order:100,journal:'Journal',url:'https://doi.org/newer'}));const result=build(dir);assert.equal(result.status,0,result.stderr);const html=await readFile(join(dir,'index.html'),'utf8');assert.ok(html.indexOf('Newest publication')<html.indexOf('Older publication'));assert.match(html,/<details class="publication-archive">[\s\S]*Older publication/);});
+
+test('brand kit and all individual vector downloads are included in deployment',async t=>{
+ const dir=await fixture(t);
+ assert.equal(build(dir).status,0);
+ const page=await readFile(join(dir,'_site/brand/index.html'),'utf8');
+ assert.ok(page.includes('../assets/brand/digital-mechanobiology-brand-kit.zip'));
+ for(const name of ['01-logo-full-colour','02-logo-full-monochrome','03-logo-symbol-colour','04-logo-symbol-monochrome','05-logo-app-icon','06-element-imaging','07-element-beam','08-element-modelling','09-element-mechanobiology','10-graphic-line-flow','11-graphic-subtle-pattern','12-element-logo-radiating-curves','13-element-logo-triangular-mesh','14-colour-palette']){
+  for(const ext of ['svg','pdf','png']){
+   assert.ok(page.includes(`kit/${name}.${ext}`));
+   await access(join(dir,`_site/assets/brand/kit/${name}.${ext}`));
+  }
+ }
+ await access(join(dir,'_site/assets/brand/digital-mechanobiology-brand-kit.zip'));
+ assert.ok((await readFile(join(dir,'_site/index.html'),'utf8')).includes('brand/'));
+});

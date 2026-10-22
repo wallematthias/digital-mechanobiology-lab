@@ -37,3 +37,7 @@ Latest movement tuning: wandering maintains a heading for 2–5 seconds instead 
 The current site builds without external npm dependencies. `npm test` checks content rendering, alumni/draft behaviour, generated pages, portrait copying, network aggregation, and the existing animation helpers. `_site/` contains only deployable assets. An optional GitHub Pages workflow is included, with manual deployment only; no repository has been created or connected.
 
 Research connections are generated from the ORCID-matched OpenAlex author record and cached locally. They show publication affiliations, including preprints/abstracts, not a verified list of active lab collaborators. Initial import: 2026-10-02; review before public launch. Personal-context portfolio path was unavailable, so copy was grounded in user-provided future lab directions, the public personal website, public software README, publications, and ORMIR workshop evidence.
+
+## Brand assets
+
+The approved lab logos and graphic elements live in `assets/brand/kit/`, with individual SVG, PDF, and PNG files. The complete download is `assets/brand/digital-mechanobiology-brand-kit.zip`. The public [brand kit](https://digitalmechanobiology.ca/brand/) is generated from `templates/brand.html`; all pages use the same symbol and icons. Retain the charcoal inner ring, symmetric arches, straight lower beam edge, and thicker white linework when updating assets.

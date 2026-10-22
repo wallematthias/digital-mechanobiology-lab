@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="460" viewBox="0 0 420 460" fill="none"><title>Logo triangular mesh</title><g transform="translate(-745 -490)"><g stroke="#c8102e" fill="none" id="triangular-mesh" stroke-width="2.6">
+<path d="M835 579 L805 618"/>
+<path d="M835 579 L844 647"/>
+<path d="M835 579 L882 605"/>
+<path d="M835 579 L926 564"/>
+<path d="M835 579 L856 552"/>
+<path d="M805 618 L793 644"/>
+<path d="M805 618 L844 647"/>
+<path d="M793 644 L768 699"/>
+<path d="M793 644 L844 647"/>
+<path d="M768 699 L844 647"/>
+<path d="M768 699 L830 780"/>
+<path d="M768 699 L889 711"/>
+<path d="M830 780 L889 711"/>
+<path d="M830 780 L766 828"/>
+<path d="M830 780 L855 882"/>
+<path d="M830 780 L889 821"/>
+<path d="M766 828 L855 882"/>
+<path d="M766 828 L766 931"/>
+<path d="M855 882 L766 931"/>
+<path d="M855 882 L840 931"/>
+<path d="M855 882 L889 914"/>
+<path d="M855 882 L889 821"/>
+<path d="M766 931 L840 931"/>
+<path d="M840 931 L889 914"/>
+<path d="M889 914 L889 821"/>
+<path d="M889 821 L889 711"/>
+<path d="M889 711 L844 647"/>
+<path d="M844 647 L882 605"/>
+<path d="M844 647 L909 654"/>
+<path d="M882 605 L926 564"/>
+<path d="M882 605 L919 622"/>
+<path d="M919 622 L926 564"/>
+<path d="M919 622 L942 636"/>
+<path d="M919 622 L909 654"/>
+<path d="M942 636 L926 564"/>
+<path d="M942 636 L1010 572"/>
+<path d="M942 636 L984 656"/>
+<path d="M909 654 L889 711"/>
+<path d="M926 564 L856 552"/>
+<path d="M926 564 L912 518"/>
+<path d="M926 564 L971 510"/>
+<path d="M926 564 L1010 572"/>
+<path d="M971 510 L1010 572"/>
+<path d="M971 510 L1057 523"/>
+<path d="M1010 572 L1057 523"/>
+<path d="M1010 572 L1099 550"/>
+<path d="M1010 572 L1066 626"/>
+<path d="M1010 572 L984 656"/>
+<path d="M1099 550 L1066 626"/>
+<path d="M1066 626 L1145 641"/>
+<path d="M1066 626 L1084 693"/>
+<path d="M1066 626 L1010 706"/>
+<path d="M1066 626 L984 656"/>
+<path d="M1145 641 L1084 693"/>
+<path d="M1145 641 L1146 693"/>
+<path d="M1084 693 L1146 693"/>
+<path d="M1084 693 L1010 706"/>
+<path d="M1084 693 L1102 758"/>
+<path d="M1010 706 L1102 758"/>
+<path d="M1102 758 L1146 693"/>
+<path d="M1102 758 L1010 797"/>
+<path d="M1102 758 L1146 807"/>
+<path d="M1102 758 L1074 862"/>
+<path d="M1010 797 L1074 862"/>
+<path d="M1010 797 L1042 931"/>
+<path d="M1146 807 L1074 862"/>
+<path d="M1146 807 L1146 899"/>
+<path d="M1074 862 L1146 899"/>
+<path d="M1074 862 L1042 931"/>
+<path d="M1074 862 L1146 931"/>
+<path d="M1146 899 L1146 931"/>
+<path d="M1042 931 L1146 931"/>
+</g><g id="mesh-nodes" fill="#c8102e" stroke="none">
+<circle cx="835" cy="579" r="4.5"/>
+<circle cx="805" cy="618" r="4.5"/>
+<circle cx="793" cy="644" r="4.5"/>
+<circle cx="830" cy="780" r="4.5"/>
+<circle cx="855" cy="882" r="4.5"/>
+<circle cx="844" cy="647" r="4.5"/>
+<circle cx="882" cy="605" r="4.5"/>
+<circle cx="919" cy="622" r="4.5"/>
+<circle cx="942" cy="636" r="4.5"/>
+<circle cx="926" cy="564" r="4.5"/>
+<circle cx="1010" cy="572" r="4.5"/>
+<circle cx="1066" cy="626" r="4.5"/>
+<circle cx="1084" cy="693" r="4.5"/>
+<circle cx="1102" cy="758" r="4.5"/>
+<circle cx="1074" cy="862" r="4.5"/>
+</g></g></svg>
