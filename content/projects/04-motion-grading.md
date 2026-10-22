@@ -7,4 +7,4 @@ The mechanobiology connection starts with reliable images: comparing local tissu
 
 This work illustrates how machine learning can address a practical measurement problem in medical imaging.
 
-[Read the motion-grading paper](https://doi.org/10.1016/j.bone.2022.116607) or [explore the MotionScoreHRpQCT code](https://github.com/wallematthias/MotionScoreHRpQCT).
+[Read the motion-grading paper](https://doi.org/10.1016/j.bone.2022.116607) or [explore the MotionScoreHRpQCT code](https://github.com/DigitalMechanobiologyLab/MotionScoreHRpQCT).
