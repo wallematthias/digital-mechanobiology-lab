@@ -1,12 +1,12 @@
 Digital Mechanobiology Lab — updated vector kit
 
-Approved design: straight lower beam edge; equal perpendicular clearance above and below the d; concentric ring; d circle contained within the stem edge; matching m crown radii, opening widths, and upright widths. Logo beam strokes: 3.6 units; mesh strokes: 2.6 units. Supporting beam, modelling, wave, and flow graphics use proportionately heavier strokes. Gold dash and red scanner indicator centered in the d upright; monochrome variants use a reversed indicator. Imaging element uses the approved d scanner with a wide front bench. Padded square avatar retains original logo proportions.
+Approved design: straight lower beam edge; equal perpendicular clearance above and below the d; concentric ring; d circle contained within the stem edge; matching m crown radii, opening widths, and upright widths. Logo beam strokes: 3.6 units; mesh strokes: 2.6 units. Supporting beam, modelling, wave, and flow graphics use proportionately heavier strokes. UCalgary gold centre dot in colour logos; no upright indicator. Monochrome variants retain a charcoal centre dot. Imaging element uses the approved d scanner with a wide front bench. Padded square avatar retains original logo proportions.
 
 Recreated from the supplied reference board, using the previously approved vector symbol. Small source details and typography are interpreted rather than exact original source artwork.
 
 Each numbered asset is supplied as an individual SVG and vector PDF. PNGs are white-background previews. SVG backgrounds are transparent except for the intentionally filled app-icon tile. Lettering is converted to vector outlines for reliable appearance without installed fonts.
 
-Palette from reference: UCalgary red #C8102E; orange #F15A24; charcoal #1F1F1F; stone #E8E6E3; UCalgary gold #FFCD00 (indicator accent). The colour symbol blends orange into red.
+Palette from reference: UCalgary red #C8102E; orange #F15A24; charcoal #1F1F1F; stone #E8E6E3; UCalgary gold #FFCD00 (centre-dot accent). The colour symbol blends orange into red.
 
 01-logo-full-colour: Full logo · colour
 02-logo-full-monochrome: Full logo · monochrome
