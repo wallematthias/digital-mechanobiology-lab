@@ -71,7 +71,7 @@ test('brand kit and all individual vector downloads are included in deployment',
  assert.equal(build(dir).status,0);
  const page=await readFile(join(dir,'_site/brand/index.html'),'utf8');
  assert.ok(page.includes('../assets/brand/digital-mechanobiology-brand-kit.zip'));
- for(const name of ['01-logo-full-colour','02-logo-full-monochrome','03-logo-symbol-colour','04-logo-symbol-monochrome','05-logo-app-icon','06-element-imaging','07-element-beam','08-element-modelling','09-element-mechanobiology','10-graphic-line-flow','11-graphic-subtle-pattern','12-element-logo-radiating-curves','13-element-logo-triangular-mesh','14-colour-palette']){
+ for(const name of ['01-logo-full-colour','02-logo-full-monochrome','03-logo-symbol-colour','04-logo-symbol-monochrome','05-logo-app-icon','06-element-imaging','07-element-beam','08-element-modelling','09-element-mechanobiology','10-graphic-line-flow','11-graphic-subtle-pattern','12-element-logo-radiating-curves','13-element-logo-triangular-mesh','14-colour-palette','15-logo-square-padded']){
   for(const ext of ['svg','pdf','png']){
    assert.ok(page.includes(`kit/${name}.${ext}`));
    await access(join(dir,`_site/assets/brand/kit/${name}.${ext}`));
