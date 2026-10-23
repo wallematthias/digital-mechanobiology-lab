@@ -53,3 +53,10 @@ h2{font-size:clamp(30px,3.2vw,43px);letter-spacing:-1.2px}
 
 /* Gold indicator accent in the downloadable kit palette. */
 .brand-palette{grid-template-columns:repeat(5,minmax(0,1fr))}@media(max-width:540px){.brand-palette{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* Research visuals retain their scientific labels without cropping. */
+.research-media{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:240px;margin:12px 0 22px;background:#fff;border:1px solid var(--line);overflow:hidden}
+.research-media video,.research-media img{display:block;width:100%;height:100%;object-fit:contain}
+.media-toggle,.media-enlarge{position:absolute;right:8px;bottom:8px;border:1px solid #ddd;background:rgba(255,255,255,.94);color:#333;border-radius:3px;padding:5px 8px;font:inherit;font-size:10px;line-height:1.3}
+.media-toggle{cursor:pointer}.media-toggle[hidden]{display:none}.media-toggle:focus-visible,.research-media-image:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+@media(max-width:640px){.research-grid article .research-media{grid-column:1/-1;grid-row:auto;height:auto;aspect-ratio:4/3;margin:12px 0 18px}.research-grid article h3,.research-grid article p,.research-grid article .card-more{grid-column:1/-1}}

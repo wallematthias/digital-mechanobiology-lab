@@ -80,3 +80,18 @@ test('brand kit and all individual vector downloads are included in deployment',
  await access(join(dir,'_site/assets/brand/digital-mechanobiology-brand-kit.zip'));
  assert.ok((await readFile(join(dir,'_site/index.html'),'utf8')).includes('brand/'));
 });
+
+test('research cards deploy videos, posters and a full-size linked figure',async t=>{
+ const dir=await fixture(t);
+ for(const name of ['card.mp4','poster.jpg','figure.png'])await writeFile(join(dir,'assets/research',name),'media fixture');
+ await writeFile(join(dir,'content/research/03-bone-adaptation.md'),document({title:'Bone research',order:1,cardVideo:'assets/research/card.mp4',cardPoster:'assets/research/poster.jpg',cardAlt:'Bone remodelling animation'}));
+ await writeFile(join(dir,'content/research/01-cancer-bone.md'),document({title:'Tumour research',order:3,cardImage:'assets/research/figure.png',cardAlt:'Lesions across time'}));
+ const result=build(dir);assert.equal(result.status,0,result.stderr);
+ const html=await readFile(join(dir,'_site/index.html'),'utf8');
+ assert.match(html,/<video[^>]*muted[^>]*loop[^>]*playsinline/);
+ assert.ok(html.includes('poster="assets/research/poster.jpg"'));
+ assert.ok(html.includes('data-src="assets/research/card.mp4"'));
+ assert.ok(html.includes('Pause animation'));
+ assert.match(html,/<a[^>]*href="assets\/research\/figure.png"[^>]*><img/);
+ for(const name of ['card.mp4','poster.jpg','figure.png'])assert.equal(await readFile(join(dir,'_site/assets/research',name),'utf8'),'media fixture');
+});
