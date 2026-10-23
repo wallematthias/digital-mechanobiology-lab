@@ -42,4 +42,4 @@ Research connections are generated from the ORCID-matched OpenAlex author record
 
 The approved lab logos and graphic elements live in `assets/brand/kit/`, with individual SVG, PDF, and PNG files. The complete download is `assets/brand/digital-mechanobiology-brand-kit.zip`. The public [brand kit](https://digitalmechanobiology.ca/brand/) is generated from `templates/brand.html`; all pages use the same symbol and icons. Retain the charcoal inner ring, symmetric arches, straight lower beam edge, and thicker white linework when updating assets.
 
-The d upright includes a UCalgary gold (#FFCD00) dash and red (#C8102E) indicator. Monochrome exports reverse that detail into the dark mark. The kit includes the approved scanner and padded square avatar; the homepage approach section uses the separate scanner, beam, mesh, and response vectors.
+The d upright includes a UCalgary gold (#FFCD00) dash and red (#C8102E) indicator. Monochrome exports reverse that detail into the dark mark. The kit includes the approved scanner and padded square avatar; the scanner, beam, mesh, and response remain standalone kit assets for future use.
