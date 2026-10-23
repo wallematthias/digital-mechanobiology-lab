@@ -1,12 +1,6 @@
 ---
-{"title":"Cancer–Bone Mechanobiology","order":1,"visual":"tumor","tags":"BONE METASTASES · ONGOING RESEARCH","summary":"Investigating how bone metastases and the mechanical environment influence one another, and how to quantify treatment response."}
+{"title":"Tumour–Tissue Mechanics","order":3,"visual":"tumor","tags":"SKELETAL METASTASES · TUMOUR MICROENVIRONMENT","summary":"How tumours and surrounding tissues reshape their mechanical environment."}
 ---
-Bone metastases change tissue structure and the ability of bone to carry load. We are investigating how those changes relate to tumour growth, the response of the surrounding tissue, and treatment response during immune checkpoint inhibitor therapy.
+A metastatic tumour grows within a physical environment that it also changes. In the skeleton, lesions alter tissue structure and the way forces pass through the affected bone. We investigate whether the resulting mechanical conditions help explain differences in tumour progression and treatment response.
 
-The mechanobiology component connects image-derived structure and texture with estimates of local mechanical conditions. Questions include whether muscle-generated loading contributes to differences in the environment of metastatic lesions.
-
-## Imaging and response assessment
-
-We aim to develop bone-specific measures of progression and response. Potential methods include deep-learning segmentation, radiomics, validated radiology-report analysis, and image-based finite element simulations.
-
-This bone-metastasis work is ongoing and has no published results yet. Student project scope, datasets, supervision, and funding will be confirmed individually.
+We combine longitudinal imaging with computational models to study the relationship between lesion growth, surrounding tissue and local loading. By relating mechanical conditions to tumour change over time, we aim to identify when mechanics contributes information beyond lesion size and location. Our focus is the interaction between the tumour and its tissue environment throughout disease progression and treatment.

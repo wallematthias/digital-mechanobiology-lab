@@ -1,5 +1,5 @@
 ---
-{"title":"Spinal alignment, degeneration and mechanobiology","image":"assets/research/spinal-alignment-rotation.gif","imageAlt":"Rotating three-dimensional spine model showing spinal curvature and individually coloured vertebrae","order":2,"status":"direction","theme":"Spine Mechanobiology","level":"MSc / PhD","skills":["Multimodal imaging","Deep learning","Biomechanics","Longitudinal analysis"],"summary":"Combine CT, MRI and radiographs to study how spinal alignment, loading and tissue degeneration change together over time.","applicationUrl":"https://mskresearch.ca/#page=project&project=319ddc50-b5ae-4366-a59c-c786dc474388"}
+{"title":"Spinal alignment, degeneration and mechanobiology","image":"assets/research/spinal-alignment-rotation.gif","imageAlt":"Rotating three-dimensional spine model showing spinal curvature and individually coloured vertebrae","order":2,"status":"direction","theme":"Fibrocartilage Mechanobiology","level":"MSc / PhD","skills":["Multimodal imaging","Deep learning","Biomechanics","Longitudinal analysis"],"summary":"Combine CT, MRI and radiographs to study how spinal alignment, loading and tissue degeneration change together over time.","applicationUrl":"https://mskresearch.ca/#page=project&project=319ddc50-b5ae-4366-a59c-c786dc474388"}
 ---
 ## Introduction
 

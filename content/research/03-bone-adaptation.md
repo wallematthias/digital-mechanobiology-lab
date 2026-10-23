@@ -1,15 +1,6 @@
 ---
-{"title":"Bone Adaptation & Remodelling","order":3,"visual":"bone","tags":"HR-pQCT · MICRO-CT · MECHANOREGULATION","summary":"Mapping local bone formation and resorption over time, and relating these changes to the mechanical environment."}
+{"title":"Bone Adaptation & Remodelling","order":1,"visual":"bone","tags":"BONE FORMATION · RESORPTION · MECHANOREGULATION","summary":"How mechanical loading regulates bone renewal and recovery."}
 ---
-Longitudinal HR-pQCT and micro-CT let us study where bone forms and is resorbed. Combining these images with finite element models helps us examine the relationship between mechanical conditions and local tissue change.
+Bone continually renews itself through local formation and resorption. We study how mechanical loading guides this process, why responsiveness changes with disease, and what determines whether bone recovers after a period of reduced loading.
 
-This is the foundation of our mechanobiology work, with studies of mechanoregulation, diabetes, and recovery after spaceflight. It also underpins our open tools for registration, remodelling analysis, motion grading, and simulation.
-
-## Methods and resources
-
-- Longitudinal image registration and tissue tracking.
-- Local formation, resorption, and mechanoregulation analysis.
-- Deep learning for motion grading and image segmentation.
-- Image-based finite element modelling.
-
-See our [mechanoregulation study](https://doi.org/10.1016/j.bone.2023.116780) and [spaceflight remodelling study](https://doi.org/10.1126/sciadv.adq3632).
+By tracking the same tissue over time with high-resolution imaging, we map where bone is gained and lost. We combine these measurements with computational models to relate local mechanical conditions to subsequent remodelling. Our work spans bone adaptation in diabetes, skeletal recovery after spaceflight, and methods for estimating loading from tissue change.
