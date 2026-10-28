@@ -8,6 +8,17 @@ const root=new URL('../',import.meta.url);
 const document=(meta,body='Profile')=>`---\n${JSON.stringify(meta)}\n---\n${body}`;
 async function fixture(t){const dir=await mkdtemp(join(tmpdir(),'lab-site-test-'));t.after(()=>rm(dir,{recursive:true,force:true}));for(const name of ['scripts','templates','content'])await cp(new URL(name,root),join(dir,name),{recursive:true});await mkdir(join(dir,'assets'));await cp(new URL('assets/research/',root),join(dir,'assets/research'),{recursive:true});await cp(new URL('assets/brand/',root),join(dir,'assets/brand'),{recursive:true});await writeFile(join(dir,'assets/matthias-walle.png'),'fixture portrait');return dir;}
 const build=dir=>spawnSync(process.execPath,['scripts/build.mjs'],{cwd:dir,encoding:'utf8'});
+test('research areas remain unpublished while MSK student listings stay visible',async t=>{
+ const dir=await fixture(t);
+ assert.equal(build(dir).status,0);
+ const html=await readFile(join(dir,'_site/index.html'),'utf8');
+ for(const slug of ['01-cancer-bone','02-spinal-alignment','03-bone-adaptation']){
+  assert.ok(!html.includes(`research/${slug}.html`));
+  await assert.rejects(access(join(dir,`_site/research/${slug}.html`)));
+ }
+ assert.ok(html.includes('https://mskresearch.ca/embed?supervisor='));
+ assert.ok(html.includes('id="research"'));
+});
 test('student videos deploy only on project detail pages with controls and no autoplay',async t=>{
  const dir=await fixture(t);
  await writeFile(join(dir,'assets/research/student-video.mp4'),'video fixture');
@@ -62,7 +73,10 @@ test('categorized members and alumni share one directory, not the homepage',asyn
  const moved=await readFile(join(dir,'_site/people/members.html'),'utf8');assert.equal((moved.match(/<h3>New Student<\/h3>/g)||[]).length,1);assert.match(moved,/<section[^>]*id="alumni"[\s\S]*?<h3>New Student<\/h3>/);
 });
 test('empty member categories are hidden',async t=>{const dir=await fixture(t);assert.equal(build(dir).status,0);const page=await readFile(join(dir,'_site/people/members.html'),'utf8');assert.ok(!page.includes('<h2>Staff</h2>'));assert.ok(!page.includes('<h2>Postdocs</h2>'));});
-test('project figures render accessibly and are copied to deployment',async t=>{const dir=await fixture(t);await writeFile(join(dir,'assets/research/example.jpg'),'fixture research figure');await writeFile(join(dir,'content/projects/illustrated.md'),document({title:'Illustrated project',summary:'Example',status:'published',theme:'Bone Adaptation & Remodelling',image:'assets/research/example.jpg',imageAlt:'Registered bone changes',imageCredit:'Walle et al., Figure 2 · CC BY 4.0',url:'https://doi.org/example'}));const result=build(dir);assert.equal(result.status,0,result.stderr);const home=await readFile(join(dir,'index.html'),'utf8');assert.ok(!home.includes('Illustrated project'));assert.ok(home.includes('research-grid'));const html=await readFile(join(dir,'_site/research/03-bone-adaptation.html'),'utf8');assert.match(html,/<img[^>]*src="\.\.\/assets\/research\/example.jpg"[^>]*alt="Registered bone changes"/);assert.ok(html.includes('Walle et al., Figure 2 · CC BY 4.0'));assert.equal(await readFile(join(dir,'_site/assets/research/example.jpg'),'utf8'),'fixture research figure');const page=await readFile(join(dir,'_site/projects/illustrated.html'),'utf8');assert.ok(page.includes('src="../assets/research/example.jpg"'));});
+test('project figures render accessibly and are copied to deployment',async t=>{
+ const dir=await fixture(t);
+ await writeFile(join(dir,'content/research/03-bone-adaptation.md'),document({title:'Bone Adaptation & Remodelling'}));
+ await writeFile(join(dir,'assets/research/example.jpg'),'fixture research figure');await writeFile(join(dir,'content/projects/illustrated.md'),document({title:'Illustrated project',summary:'Example',status:'published',theme:'Bone Adaptation & Remodelling',image:'assets/research/example.jpg',imageAlt:'Registered bone changes',imageCredit:'Walle et al., Figure 2 · CC BY 4.0',url:'https://doi.org/example'}));const result=build(dir);assert.equal(result.status,0,result.stderr);const home=await readFile(join(dir,'index.html'),'utf8');assert.ok(!home.includes('Illustrated project'));assert.ok(home.includes('research-grid'));const html=await readFile(join(dir,'_site/research/03-bone-adaptation.html'),'utf8');assert.match(html,/<img[^>]*src="\.\.\/assets\/research\/example.jpg"[^>]*alt="Registered bone changes"/);assert.ok(html.includes('Walle et al., Figure 2 · CC BY 4.0'));assert.equal(await readFile(join(dir,'_site/assets/research/example.jpg'),'utf8'),'fixture research figure');const page=await readFile(join(dir,'_site/projects/illustrated.html'),'utf8');assert.ok(page.includes('src="../assets/research/example.jpg"'));});
 test('project image paths cannot escape the asset directory',async t=>{const dir=await fixture(t);await writeFile(join(dir,'secret.jpg'),'private');await writeFile(join(dir,'content/projects/unsafe-image.md'),document({title:'Unsafe image',summary:'Example',image:'assets/../secret.jpg'}));const result=build(dir);assert.notEqual(result.status,0);assert.match(result.stderr,/Invalid local image path/);});
 test('publications render newest year first regardless of editorial order',async t=>{const dir=await fixture(t);await writeFile(join(dir,'content/publications/older.md'),document({title:'Older publication',year:2020,order:0,journal:'Journal',url:'https://doi.org/older'}));await writeFile(join(dir,'content/publications/newer.md'),document({title:'Newest publication',year:2027,order:100,journal:'Journal',url:'https://doi.org/newer'}));const result=build(dir);assert.equal(result.status,0,result.stderr);const html=await readFile(join(dir,'index.html'),'utf8');assert.ok(html.indexOf('Newest publication')<html.indexOf('Older publication'));assert.match(html,/<details class="publication-archive">[\s\S]*Older publication/);});
 

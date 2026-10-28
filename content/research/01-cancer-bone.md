@@ -1,5 +1,5 @@
 ---
-{"title":"Tumour–Tissue Mechanics","order":3,"visual":"tumor","tags":"SKELETAL METASTASES · TUMOUR MICROENVIRONMENT","summary":"How tumours and surrounding tissues reshape their mechanical environment.","cardImage":"assets/research/tumour-tissue-mechanics.png","cardAlt":"Longitudinal CT and three-dimensional lesion views showing skeletal tumour progression and sclerotic response."}
+{"title":"Tumour–Tissue Mechanics","status":"draft","order":3,"visual":"tumor","tags":"SKELETAL METASTASES · TUMOUR MICROENVIRONMENT","summary":"How tumours and surrounding tissues reshape their mechanical environment.","cardImage":"assets/research/tumour-tissue-mechanics.png","cardAlt":"Longitudinal CT and three-dimensional lesion views showing skeletal tumour progression and sclerotic response."}
 ---
 A metastatic tumour grows within a physical environment that it also changes. In the skeleton, lesions alter tissue structure and the way forces pass through the affected bone. We investigate whether the resulting mechanical conditions help explain differences in tumour progression and treatment response.
 
