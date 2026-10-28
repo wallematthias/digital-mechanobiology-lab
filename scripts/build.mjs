@@ -48,6 +48,11 @@ await writeFile(new URL('.build-manifest.json',root),JSON.stringify(generated));
 for(const path of ['index.html',...generated]){
  const prefix=path==='index.html'?'':'../';
  let page=await readFile(new URL(path,root),'utf8');
+ if(!collections.research.length){
+  page=page.replace(/<section class="section" id="research">[\s\S]*?<\/section>/,'');
+  page=page.replace(/<a href="(?:\.\.\/index\.html)?#research">Research<\/a>/g,'');
+  page=page.replace('<a class="text-link" href="#research">Explore the research ↓</a>','<a class="text-link" href="#people">Meet the people ↓</a>');
+ }
  page=page.replace(/<span class="mark"(?: aria-hidden="true")?>dm<span>·<\/span><\/span>/g,`<img class="brand-logo" src="${prefix}assets/brand/dm-mark.svg" alt="" aria-hidden="true" width="1098" height="670">`);
  page=page.replace('</footer>',`<a href="${prefix}brand/">Brand kit ↓</a></footer>`);
  page=page.replace('</head>',`<link rel="icon" type="image/svg+xml" href="${prefix}assets/brand/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="${prefix}assets/brand/favicon-32.png"><link rel="apple-touch-icon" sizes="180x180" href="${prefix}assets/brand/apple-touch-icon.png"><meta name="theme-color" content="#c8102e"><meta property="og:image" content="https://digitalmechanobiology.ca/assets/brand/social-card.png"><meta name="twitter:card" content="summary_large_image"></head>`);

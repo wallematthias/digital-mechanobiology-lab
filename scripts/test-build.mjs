@@ -17,7 +17,9 @@ test('research areas remain unpublished while MSK student listings stay visible'
   await assert.rejects(access(join(dir,`_site/research/${slug}.html`)));
  }
  assert.ok(html.includes('https://mskresearch.ca/embed?supervisor='));
- assert.ok(html.includes('id="research"'));
+ assert.ok(!html.includes('id="research"'));
+ assert.ok(!html.includes('href="#research"'));
+ assert.ok(html.indexOf('id="people"')<html.indexOf('id="positions"'));
 });
 test('student videos deploy only on project detail pages with controls and no autoplay',async t=>{
  const dir=await fixture(t);
