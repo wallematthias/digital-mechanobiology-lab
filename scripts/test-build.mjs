@@ -44,7 +44,7 @@ test('all published pages resolve their lab logo and icons within the site subpa
   assert.ok(html.includes('Walle Lab'),`${path} lab name`);
   assert.ok(html.includes('Computational Mechanobiology'),`${path} descriptor`);
   assert.ok(!html.includes('Digital Mechanobiology Lab'));
-  assert.ok(html.includes(`src="${prefix}assets/brand/cm-mark.svg"`),`${path} approved logo`);
+  assert.ok(html.includes(`src="${prefix}assets/brand/walle-lab-lockup.svg"`),`${path} approved logo`);
   assert.ok(html.includes(`href="${prefix}assets/brand/apple-touch-icon.png"`),`${path} mobile icon`);
  }
  assert.equal(await readFile(join(dir,'_site/assets/brand/favicon.svg'),'utf8'),'brand fixture');
@@ -90,7 +90,7 @@ test('brand kit and all individual vector downloads are included in deployment',
  assert.equal(build(dir).status,0);
  const page=await readFile(join(dir,'_site/brand/index.html'),'utf8');
  assert.ok(page.includes('../assets/brand/walle-lab-brand-kit.zip'));
- for(const name of ['walle-lab-lockup','walle-lab-lockup-monochrome','cm-mark','cm-mark-monochrome']){
+ for(const name of ['walle-lab-lockup','walle-lab-lockup-monochrome','walle-lab-stacked','walle-lab-stacked-monochrome','cm-mark','cm-mark-monochrome']){
   for(const ext of ['svg','pdf','png']){
    assert.ok(page.includes(`${name}.${ext}`));
    await access(join(dir,`_site/assets/brand/${name}.${ext}`));
