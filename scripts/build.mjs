@@ -55,7 +55,7 @@ for(const path of ['index.html',...generated]){
  }
  page=page.replace(/<span class="mark"(?: aria-hidden="true")?>dm<span>·<\/span><\/span><span>Walle Lab<small>Computational Mechanobiology<\/small><\/span>/g,`<img class="brand-lockup" src="${prefix}assets/brand/walle-lab-lockup.svg" alt="Walle Lab — Computational Mechanobiology" width="1400" height="430">`);
  page=page.replace('</footer>',`<a href="${prefix}brand/">Brand kit ↓</a></footer>`);
- page=page.replace('</head>',`<link rel="icon" type="image/svg+xml" href="${prefix}assets/brand/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="${prefix}assets/brand/favicon-32.png"><link rel="apple-touch-icon" sizes="180x180" href="${prefix}assets/brand/apple-touch-icon.png"><meta name="theme-color" content="#c8102e"><meta property="og:image" content="https://digitalmechanobiology.ca/assets/brand/social-card.png"><meta name="twitter:card" content="summary_large_image"></head>`);
+ page=page.replace('</head>',`<link rel="icon" type="image/svg+xml" href="${prefix}assets/brand/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="${prefix}assets/brand/favicon-32.png"><link rel="apple-touch-icon" sizes="180x180" href="${prefix}assets/brand/apple-touch-icon.png"><meta name="theme-color" content="#c8102e"><meta property="og:image" content="https://wallelab.ca/assets/brand/social-card.png"><meta name="twitter:card" content="summary_large_image"></head>`);
  await writeFile(new URL(path,root),page);
 }
 // _site is exclusively generated output; source content and root preview assets are never removed.
