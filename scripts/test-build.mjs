@@ -35,13 +35,16 @@ test('student videos deploy only on project detail pages with controls and no au
 });
 test('all published pages resolve their lab logo and icons within the site subpath',async t=>{
  const dir=await fixture(t);
- for(const name of ['dm-mark.svg','favicon.svg','apple-touch-icon.png','social-card.png'])await writeFile(join(dir,'assets/brand',name),'brand fixture');
+ for(const name of ['cm-mark.svg','favicon.svg','apple-touch-icon.png','social-card.png'])await writeFile(join(dir,'assets/brand',name),'brand fixture');
  assert.equal(build(dir).status,0);
  for(const path of ['index.html','people/members.html','opportunities/01-cancer-imaging.html']){
   const html=await readFile(join(dir,'_site',path),'utf8');
   const prefix=path==='index.html'?'':'../';
   assert.ok(html.includes(`href="${prefix}assets/brand/favicon.svg"`),`${path} favicon`);
-  assert.ok(html.includes(`src="${prefix}assets/brand/dm-mark.svg"`),`${path} approved logo`);
+  assert.ok(html.includes('Walle Lab'),`${path} lab name`);
+  assert.ok(html.includes('Computational Mechanobiology'),`${path} descriptor`);
+  assert.ok(!html.includes('Digital Mechanobiology Lab'));
+  assert.ok(html.includes(`src="${prefix}assets/brand/cm-mark.svg"`),`${path} approved logo`);
   assert.ok(html.includes(`href="${prefix}assets/brand/apple-touch-icon.png"`),`${path} mobile icon`);
  }
  assert.equal(await readFile(join(dir,'_site/assets/brand/favicon.svg'),'utf8'),'brand fixture');
@@ -86,14 +89,14 @@ test('brand kit and all individual vector downloads are included in deployment',
  const dir=await fixture(t);
  assert.equal(build(dir).status,0);
  const page=await readFile(join(dir,'_site/brand/index.html'),'utf8');
- assert.ok(page.includes('../assets/brand/digital-mechanobiology-brand-kit.zip'));
- for(const name of ['01-logo-full-colour','02-logo-full-monochrome','03-logo-symbol-colour','04-logo-symbol-monochrome','05-logo-app-icon','06-element-imaging','07-element-beam','08-element-modelling','09-element-mechanobiology','10-graphic-line-flow','11-graphic-subtle-pattern','12-element-logo-radiating-curves','13-element-logo-triangular-mesh','14-colour-palette','15-logo-square-padded']){
+ assert.ok(page.includes('../assets/brand/walle-lab-brand-kit.zip'));
+ for(const name of ['walle-lab-lockup','walle-lab-lockup-monochrome','cm-mark','cm-mark-monochrome']){
   for(const ext of ['svg','pdf','png']){
-   assert.ok(page.includes(`kit/${name}.${ext}`));
-   await access(join(dir,`_site/assets/brand/kit/${name}.${ext}`));
+   assert.ok(page.includes(`${name}.${ext}`));
+   await access(join(dir,`_site/assets/brand/${name}.${ext}`));
   }
  }
- await access(join(dir,'_site/assets/brand/digital-mechanobiology-brand-kit.zip'));
+ await access(join(dir,'_site/assets/brand/walle-lab-brand-kit.zip'));
  assert.ok((await readFile(join(dir,'_site/index.html'),'utf8')).includes('brand/'));
 });
 

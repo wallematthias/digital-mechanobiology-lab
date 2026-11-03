@@ -1,4 +1,4 @@
-# Digital Mechanobiology Lab — parallel preview
+# Walle Lab — Computational Mechanobiology
 
 A standalone content-managed lab website, separate from the current personal website. Nothing is published.
 

@@ -1,16 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none"><title>App icon</title><defs><linearGradient id="tile" x2="1" y2="1"><stop stop-color="#fcfbfa"/><stop offset="1" stop-color="#f3f1ef"/></linearGradient></defs><rect x="12" y="12" width="488" height="488" rx="100" fill="url(#tile)"/><g transform="translate(55 132) scale(0.365) translate(-70 -295)"><defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>Walle Lab</title><svg x="16" y="110" width="480" height="293" viewBox="0 0 1098 670"><title>Logo symbol · colour</title><g transform="translate(0 0) scale(1) translate(-70 -295)"><defs>
  <linearGradient id="charcoal" x1="130" y1="470" x2="510" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#1f1f1f"/><stop offset="1" stop-color="#1f1f1f"/></linearGradient>
  <linearGradient id="colour" x1="326" y1="705" x2="1146" y2="705" gradientUnits="userSpaceOnUse"><stop stop-color="#f15a24"/><stop offset=".42" stop-color="#e52b28"/><stop offset=".7" stop-color="#d5192c"/><stop offset="1" stop-color="#c8102e"/></linearGradient>
 
 <clipPath id="m-clip"><path d="M345 701 L610.34693432 542.01571007 A190 190 0 0 1 832 561.04167270 A190 190 0 0 1 1146 705 L1146 931 L1014 931 L1014 701 A58 58 0 0 0 898 701 L898 931 L766 931 L766 701 A58 58 0 0 0 650 701 L650 931 L345 701 Z"/></clipPath>
 </defs>
-<g id="charcoal-symbol" fill="url(#charcoal)">
-<path d="M526 571.56909045 L467.80992982 606.43403816 A155 155 0 1 0 457.08114411 808.06454658 L526 860.03614282 L526 866.11813952 A245 245 0 1 1 403 462.96428839 L403 327 Q403 315 415 315 L514 315 Q526 315 526 327 Z"/>
-<path d="M453.11540350 615.23835632 L427.09657866 630.82769939 A108 108 0 1 0 419.18633745 779.48813500 L443.40390513 797.75056308 A138 138 0 1 1 453.11540350 615.23835632 Z"/>
-</g>
+<g id="charcoal-symbol" fill="#164E5B"><path d="M540.3111 567.3124 A245 245 0 1 0 525.7582 854.7410 L453.8207 800.5322 A155 155 0 1 1 463.0863 613.7137 Z"/><path d="M448.4877 622.4854 A138 138 0 1 0 440.2236 790.2860 L416.2132 772.1929 A108 108 0 1 1 422.7049 637.9773 Z"/></g>
 <path id="colour-symbol" d="M345 701 L610.34693432 542.01571007 A190 190 0 0 1 832 561.04167270 A190 190 0 0 1 1146 705 L1146 931 L1014 931 L1014 701 A58 58 0 0 0 898 701 L898 931 L766 931 L766 701 A58 58 0 0 0 650 701 L650 931 L345 701 Z" fill="url(#colour)"/>
 <g clip-path="url(#m-clip)" stroke="#fffdf4" stroke-linecap="round" stroke-linejoin="round">
-<g id="radiating-curves" stroke-width="3.6">
+<g id="radiating-curves" stroke-width="3.6" fill="none">
 <path d="M345 701 C443 676 563 591 664 559 C724 539 776 561 835 579"/>
 <path d="M345 701 C439 681 559 618 666 589 C720 574 761 589 805 618"/>
 <path d="M345 701 C446 687 556 638 665 619 C719 610 758 626 793 644"/>
@@ -23,7 +20,7 @@
 <path d="M345 701 C440 740 550 791 658 843"/>
 <path d="M345 701 C438 750 550 816 658 883"/>
 </g>
-<g id="triangular-mesh" stroke-width="2.6">
+<g id="triangular-mesh" stroke-width="2.6" fill="none">
 <path d="M835 579 L805 618"/>
 <path d="M835 579 L844 647"/>
 <path d="M835 579 L882 605"/>
@@ -96,24 +93,24 @@
 <path d="M1074 862 L1146 931"/>
 <path d="M1146 899 L1146 931"/>
 <path d="M1042 931 L1146 931"/>
-</g>
+<circle cx="766" cy="828" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="766" cy="931" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="768" cy="699" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="793" cy="644" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="805" cy="618" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="830" cy="780" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="835" cy="579" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="840" cy="931" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="844" cy="647" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="855" cy="882" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="856" cy="552" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="882" cy="605" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="889" cy="711" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="889" cy="821" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="889" cy="914" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="909" cy="654" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="912" cy="518" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="919" cy="622" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="926" cy="564" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="942" cy="636" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="971" cy="510" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="984" cy="656" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1010" cy="572" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1010" cy="706" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1010" cy="797" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1042" cy="931" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1057" cy="523" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1066" cy="626" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1074" cy="862" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1084" cy="693" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1099" cy="550" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1102" cy="758" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1145" cy="641" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1146" cy="693" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1146" cy="807" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1146" cy="899" r="4.5" fill="#fffdf4" stroke="none"/><circle cx="1146" cy="931" r="4.5" fill="#fffdf4" stroke="none"/></g>
 <g id="mesh-nodes" fill="#fffdf4" stroke="none">
-<circle cx="835" cy="579" r="4.5"/>
-<circle cx="805" cy="618" r="4.5"/>
-<circle cx="793" cy="644" r="4.5"/>
-<circle cx="830" cy="780" r="4.5"/>
-<circle cx="855" cy="882" r="4.5"/>
-<circle cx="844" cy="647" r="4.5"/>
-<circle cx="882" cy="605" r="4.5"/>
-<circle cx="919" cy="622" r="4.5"/>
-<circle cx="942" cy="636" r="4.5"/>
-<circle cx="926" cy="564" r="4.5"/>
-<circle cx="1010" cy="572" r="4.5"/>
-<circle cx="1066" cy="626" r="4.5"/>
-<circle cx="1084" cy="693" r="4.5"/>
-<circle cx="1102" cy="758" r="4.5"/>
-<circle cx="1074" cy="862" r="4.5"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </g>
 </g>
 <circle id="focus" cx="345" cy="701" r="14" fill="#FFCD00"/>
-</g></svg>
+</g></svg></svg>
