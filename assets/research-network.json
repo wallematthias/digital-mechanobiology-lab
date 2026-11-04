@@ -2,8 +2,8 @@
   "source": "OpenAlex",
   "authorId": "https://openalex.org/A5038718884",
   "orcid": "https://orcid.org/0000-0003-3250-8143",
-  "updated": "2026-10-02",
-  "workCount": 33,
+  "updated": "2026-11-01",
+  "workCount": 31,
   "nodes": [
     {
       "id": "https://openalex.org/I35440088",
@@ -15,7 +15,7 @@
       "authors": [
         "Angad Malhotra",
         "Ariane C. Scheuren",
-        "Caitlyn J. Collins",
+        "Caitlyn Jayne Collins",
         "Daniele Boaretti",
         "Danielle E. Whittier",
         "Dominic Eggemann",
@@ -73,12 +73,6 @@
           "doi": "https://doi.org/10.1016/j.bone.2023.116893"
         },
         {
-          "id": "https://openalex.org/W4313750716",
-          "title": "Mechanostat parameters estimated from time-lapsed in vivo micro-computed tomography data of mechanically driven bone adaptation are logarithmically dependent on loading frequency",
-          "year": 2023,
-          "doi": "https://doi.org/10.1101/2023.01.07.523082"
-        },
-        {
           "id": "https://openalex.org/W4300167442",
           "title": "Meta-analysis of Diabetes Mellitus-Associated Differences in Bone Structure Assessed by High-Resolution Peripheral Quantitative Computed Tomography",
           "year": 2022,
@@ -115,12 +109,6 @@
           "doi": "https://doi.org/10.3389/fbioe.2021.677985"
         },
         {
-          "id": "https://openalex.org/W3132800771",
-          "title": "Bone mechanoregulation allows subject-specific load estimation based on time-lapsed micro-CT and HR-pQCT in vivo",
-          "year": 2021,
-          "doi": "https://doi.org/10.1101/2021.02.22.431960"
-        },
-        {
           "id": "https://openalex.org/W3164874695",
           "title": "Tissue-level mechanical stimuli drive bone formation and resorption in humans and mice",
           "year": 2021,
@@ -144,7 +132,7 @@
       "authors": [
         "Angad Malhotra",
         "Ariane C. Scheuren",
-        "Caitlyn J. Collins",
+        "Caitlyn Jayne Collins",
         "Daniele Boaretti",
         "Danielle E. Whittier",
         "Dominic Eggemann",
@@ -195,12 +183,6 @@
           "doi": "https://doi.org/10.1016/j.bone.2023.116893"
         },
         {
-          "id": "https://openalex.org/W4313750716",
-          "title": "Mechanostat parameters estimated from time-lapsed in vivo micro-computed tomography data of mechanically driven bone adaptation are logarithmically dependent on loading frequency",
-          "year": 2023,
-          "doi": "https://doi.org/10.1101/2023.01.07.523082"
-        },
-        {
           "id": "https://openalex.org/W4300167442",
           "title": "Meta-analysis of Diabetes Mellitus-Associated Differences in Bone Structure Assessed by High-Resolution Peripheral Quantitative Computed Tomography",
           "year": 2022,
@@ -235,12 +217,6 @@
           "title": "Bone Mechanoregulation Allows Subject-Specific Load Estimation Based on Time-Lapsed Micro-CT and HR-pQCT in Vivo",
           "year": 2021,
           "doi": "https://doi.org/10.3389/fbioe.2021.677985"
-        },
-        {
-          "id": "https://openalex.org/W3132800771",
-          "title": "Bone mechanoregulation allows subject-specific load estimation based on time-lapsed micro-CT and HR-pQCT in vivo",
-          "year": 2021,
-          "doi": "https://doi.org/10.1101/2021.02.22.431960"
         },
         {
           "id": "https://openalex.org/W3108826561",
@@ -326,12 +302,6 @@
           "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
           "year": 2025,
           "doi": "https://doi.org/10.1038/s41526-025-00511-x"
-        },
-        {
-          "id": "https://openalex.org/W4409729313",
-          "title": "Comparing Linear and Nonlinear Finite Element Models of Vertebral Strength Across the Thoracolumbar Spine: A Benchmark from Density-Calibrated Computed Tomography",
-          "year": 2025,
-          "doi": "https://doi.org/10.1101/2025.04.19.649449"
         },
         {
           "id": "https://openalex.org/W4415475121",
@@ -478,7 +448,7 @@
       "latitude": 37.22957,
       "longitude": -80.41394,
       "authors": [
-        "Caitlyn J. Collins"
+        "Caitlyn Jayne Collins"
       ],
       "papers": [
         {
@@ -612,50 +582,6 @@
           "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
           "year": 2023,
           "doi": "https://doi.org/10.1016/j.bone.2023.116996"
-        }
-      ]
-    },
-    {
-      "id": "https://openalex.org/I143397708",
-      "name": "Innsbruck Medical University",
-      "city": "Innsbruck",
-      "country": "AT",
-      "latitude": 47.26266,
-      "longitude": 11.39454,
-      "authors": [
-        "Gerard Degenhart",
-        "Michael Blauth"
-      ],
-      "papers": [
-        {
-          "id": "https://openalex.org/W7130674710",
-          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
-          "year": 2026,
-          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
-        },
-        {
-          "id": "https://openalex.org/W4367609616",
-          "title": "Precision of bone mechanoregulation assessment in humans using longitudinal high-resolution peripheral quantitative computed tomography in vivo",
-          "year": 2023,
-          "doi": "https://doi.org/10.1016/j.bone.2023.116780"
-        },
-        {
-          "id": "https://openalex.org/W3177029177",
-          "title": "Bone Mechanoregulation Allows Subject-Specific Load Estimation Based on Time-Lapsed Micro-CT and HR-pQCT in Vivo",
-          "year": 2021,
-          "doi": "https://doi.org/10.3389/fbioe.2021.677985"
-        },
-        {
-          "id": "https://openalex.org/W3132800771",
-          "title": "Bone mechanoregulation allows subject-specific load estimation based on time-lapsed micro-CT and HR-pQCT in vivo",
-          "year": 2021,
-          "doi": "https://doi.org/10.1101/2021.02.22.431960"
-        },
-        {
-          "id": "https://openalex.org/W3164874695",
-          "title": "Tissue-level mechanical stimuli drive bone formation and resorption in humans and mice",
-          "year": 2021,
-          "doi": "https://doi.org/10.1016/j.bonr.2021.101032"
         }
       ]
     },
@@ -802,34 +728,34 @@
       ]
     },
     {
-      "id": "https://openalex.org/I4210162546",
-      "name": "University Hospital Innsbruck",
+      "id": "https://openalex.org/I143397708",
+      "name": "Innsbruck Medical University",
       "city": "Innsbruck",
       "country": "AT",
       "latitude": 47.26266,
       "longitude": 11.39454,
       "authors": [
-        "Kerstin Stock",
+        "Gerard Degenhart",
         "Michael Blauth"
       ],
       "papers": [
         {
-          "id": "https://openalex.org/W4308592417",
-          "title": "Motion grading of high-resolution quantitative computed tomography supported by deep convolutional neural networks",
-          "year": 2022,
-          "doi": "https://doi.org/10.1016/j.bone.2022.116607"
+          "id": "https://openalex.org/W7130674710",
+          "title": "Open and reproducible research in musculoskeletal imaging: Why it matters and how to implement it with the guidelines of the ORMIR community",
+          "year": 2026,
+          "doi": "https://doi.org/10.1093/jbmrpl/ziag025"
+        },
+        {
+          "id": "https://openalex.org/W4367609616",
+          "title": "Precision of bone mechanoregulation assessment in humans using longitudinal high-resolution peripheral quantitative computed tomography in vivo",
+          "year": 2023,
+          "doi": "https://doi.org/10.1016/j.bone.2023.116780"
         },
         {
           "id": "https://openalex.org/W3177029177",
           "title": "Bone Mechanoregulation Allows Subject-Specific Load Estimation Based on Time-Lapsed Micro-CT and HR-pQCT in Vivo",
           "year": 2021,
           "doi": "https://doi.org/10.3389/fbioe.2021.677985"
-        },
-        {
-          "id": "https://openalex.org/W3132800771",
-          "title": "Bone mechanoregulation allows subject-specific load estimation based on time-lapsed micro-CT and HR-pQCT in vivo",
-          "year": 2021,
-          "doi": "https://doi.org/10.1101/2021.02.22.431960"
         },
         {
           "id": "https://openalex.org/W3164874695",
@@ -938,6 +864,38 @@
           "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
           "year": 2023,
           "doi": "https://doi.org/10.1016/j.bone.2023.116996"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/I4210162546",
+      "name": "University Hospital Innsbruck",
+      "city": "Innsbruck",
+      "country": "AT",
+      "latitude": 47.26266,
+      "longitude": 11.39454,
+      "authors": [
+        "Kerstin Stock",
+        "Michael Blauth"
+      ],
+      "papers": [
+        {
+          "id": "https://openalex.org/W4308592417",
+          "title": "Motion grading of high-resolution quantitative computed tomography supported by deep convolutional neural networks",
+          "year": 2022,
+          "doi": "https://doi.org/10.1016/j.bone.2022.116607"
+        },
+        {
+          "id": "https://openalex.org/W3177029177",
+          "title": "Bone Mechanoregulation Allows Subject-Specific Load Estimation Based on Time-Lapsed Micro-CT and HR-pQCT in Vivo",
+          "year": 2021,
+          "doi": "https://doi.org/10.3389/fbioe.2021.677985"
+        },
+        {
+          "id": "https://openalex.org/W3164874695",
+          "title": "Tissue-level mechanical stimuli drive bone formation and resorption in humans and mice",
+          "year": 2021,
+          "doi": "https://doi.org/10.1016/j.bonr.2021.101032"
         }
       ]
     },
@@ -1174,7 +1132,7 @@
       "id": "https://openalex.org/I4389425471",
       "name": "Alberta Children's Hospital Research Institute",
       "city": "Calgary",
-      "country": "",
+      "country": "CA",
       "latitude": 51.05010986328125,
       "longitude": -114.08528900146484,
       "authors": [
@@ -1198,7 +1156,7 @@
       "latitude": -37.814,
       "longitude": 144.96332,
       "authors": [
-        "Ali Ghasem-Zadeh"
+        "Ali Ghasem Zadeh"
       ],
       "papers": [
         {
@@ -1529,8 +1487,8 @@
       "name": "Philadelphia VA Medical Center",
       "city": "Philadelphia",
       "country": "US",
-      "latitude": 39.9479866027832,
-      "longitude": -75.20004272460938,
+      "latitude": 39.95238,
+      "longitude": -75.16362,
       "authors": [
         "Joshua F. Baker"
       ],
@@ -1586,7 +1544,7 @@
       "id": "https://openalex.org/I4388891853",
       "name": "Schroeder Arthritis Institute",
       "city": "Toronto",
-      "country": "",
+      "country": "CA",
       "latitude": 43.700111389160156,
       "longitude": -79.41629791259766,
       "authors": [
@@ -1686,7 +1644,7 @@
       "latitude": -37.814,
       "longitude": 144.96332,
       "authors": [
-        "Ali Ghasem-Zadeh",
+        "Ali Ghasem Zadeh",
         "Kathryn S. Stok",
         "Michelle Alejandra Espinosa-Hernandez",
         "Pholpat Durongbhan"
