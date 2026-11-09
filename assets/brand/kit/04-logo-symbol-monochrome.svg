@@ -9,7 +9,7 @@
 <path d="M453.11540350 615.23835632 L427.09657866 630.82769939 A108 108 0 1 0 419.18633745 779.48813500 L443.40390513 797.75056308 A138 138 0 1 1 453.11540350 615.23835632 Z"/>
 </g>
 <path id="colour-symbol" d="M345 701 L610.34693432 542.01571007 A190 190 0 0 1 832 561.04167270 A190 190 0 0 1 1146 705 L1146 931 L1014 931 L1014 701 A58 58 0 0 0 898 701 L898 931 L766 931 L766 701 A58 58 0 0 0 650 701 L650 931 L345 701 Z" fill="#1f1f1f"/>
-<g clip-path="url(#m-clip)" stroke="#fffdf4" stroke-linecap="round" stroke-linejoin="round">
+<g clip-path="url(#m-clip)" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
 <g id="radiating-curves" stroke-width="3.6">
 <path d="M345 701 C443 676 563 591 664 559 C724 539 776 561 835 579"/>
 <path d="M345 701 C439 681 559 618 666 589 C720 574 761 589 805 618"/>
@@ -23,7 +23,7 @@
 <path d="M345 701 C440 740 550 791 658 843"/>
 <path d="M345 701 C438 750 550 816 658 883"/>
 </g>
-<g id="triangular-mesh" stroke-width="2.6">
+<g id="triangular-mesh" stroke-width="4.5">
 <path d="M835 579 L805 618"/>
 <path d="M835 579 L844 647"/>
 <path d="M835 579 L882 605"/>
@@ -97,7 +97,7 @@
 <path d="M1146 899 L1146 931"/>
 <path d="M1042 931 L1146 931"/>
 </g>
-<g id="mesh-nodes" fill="#fffdf4" stroke="none">
+<g id="mesh-nodes" fill="#ffffff" stroke="none">
 <circle cx="835" cy="579" r="4.5"/>
 <circle cx="805" cy="618" r="4.5"/>
 <circle cx="793" cy="644" r="4.5"/>

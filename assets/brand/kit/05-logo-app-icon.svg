@@ -4,12 +4,9 @@
 
 <clipPath id="m-clip"><path d="M345 701 L610.34693432 542.01571007 A190 190 0 0 1 832 561.04167270 A190 190 0 0 1 1146 705 L1146 931 L1014 931 L1014 701 A58 58 0 0 0 898 701 L898 931 L766 931 L766 701 A58 58 0 0 0 650 701 L650 931 L345 701 Z"/></clipPath>
 </defs>
-<g id="charcoal-symbol" fill="url(#charcoal)">
-<path d="M526 571.56909045 L467.80992982 606.43403816 A155 155 0 1 0 457.08114411 808.06454658 L526 860.03614282 L526 866.11813952 A245 245 0 1 1 403 462.96428839 L403 327 Q403 315 415 315 L514 315 Q526 315 526 327 Z"/>
-<path d="M453.11540350 615.23835632 L427.09657866 630.82769939 A108 108 0 1 0 419.18633745 779.48813500 L443.40390513 797.75056308 A138 138 0 1 1 453.11540350 615.23835632 Z"/>
-</g>
+<g id="charcoal-symbol" fill="#716b65"><path d="M540.3111 567.3124 A245 245 0 1 0 525.7582 854.7410 L453.8207 800.5322 A155 155 0 1 1 463.0863 613.7137 Z"/><path d="M448.4877 622.4854 A138 138 0 1 0 440.2236 790.2860 L416.2132 772.1929 A108 108 0 1 1 422.7049 637.9773 Z" fill="#938b83"/></g>
 <path id="colour-symbol" d="M345 701 L610.34693432 542.01571007 A190 190 0 0 1 832 561.04167270 A190 190 0 0 1 1146 705 L1146 931 L1014 931 L1014 701 A58 58 0 0 0 898 701 L898 931 L766 931 L766 701 A58 58 0 0 0 650 701 L650 931 L345 701 Z" fill="url(#colour)"/>
-<g clip-path="url(#m-clip)" stroke="#fffdf4" stroke-linecap="round" stroke-linejoin="round">
+<g clip-path="url(#m-clip)" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
 <g id="radiating-curves" stroke-width="3.6">
 <path d="M345 701 C443 676 563 591 664 559 C724 539 776 561 835 579"/>
 <path d="M345 701 C439 681 559 618 666 589 C720 574 761 589 805 618"/>
@@ -23,7 +20,7 @@
 <path d="M345 701 C440 740 550 791 658 843"/>
 <path d="M345 701 C438 750 550 816 658 883"/>
 </g>
-<g id="triangular-mesh" stroke-width="2.6">
+<g id="triangular-mesh" stroke-width="4.5">
 <path d="M835 579 L805 618"/>
 <path d="M835 579 L844 647"/>
 <path d="M835 579 L882 605"/>
@@ -97,7 +94,7 @@
 <path d="M1146 899 L1146 931"/>
 <path d="M1042 931 L1146 931"/>
 </g>
-<g id="mesh-nodes" fill="#fffdf4" stroke="none">
+<g id="mesh-nodes" fill="#ffffff" stroke="none">
 <circle cx="835" cy="579" r="4.5"/>
 <circle cx="805" cy="618" r="4.5"/>
 <circle cx="793" cy="644" r="4.5"/>
